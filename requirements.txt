@@ -135,3 +135,4 @@ google-generativeai
 lightrag-hku
 sentence_transformers
 pysqlite3-binary
+chromadb
