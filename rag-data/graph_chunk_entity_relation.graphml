@@ -1,0 +1,659 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d9" for="edge" attr.name="file_path" attr.type="string" />
+  <key id="d8" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d7" for="edge" attr.name="keywords" attr.type="string" />
+  <key id="d6" for="edge" attr.name="description" attr.type="string" />
+  <key id="d5" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d4" for="node" attr.name="file_path" attr.type="string" />
+  <key id="d3" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d2" for="node" attr.name="description" attr.type="string" />
+  <key id="d1" for="node" attr.name="entity_type" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_id" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="Axel">
+      <data key="d0">Axel</data>
+      <data key="d1">person</data>
+      <data key="d2">Axel is a student who has a unique approach to learning, staying calm and focused, and has a natural ability to retain information.</data>
+      <data key="d3">chunk-0c6ede8e41e4b5964379f52ad80a4487</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="Mia">
+      <data key="d0">Mia</data>
+      <data key="d1">person</data>
+      <data key="d2">Mia is a friend of Axel's who is initially puzzled by his studying habits but later seeks his advice on how to improve her learning.</data>
+      <data key="d3">chunk-0c6ede8e41e4b5964379f52ad80a4487</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="Josh">
+      <data key="d0">Josh</data>
+      <data key="d1">person</data>
+      <data key="d2">Josh is a friend of Axel's and Mia's, who gets a C on a test and is amazed by Axel's ability to get an A without extensive studying.</data>
+      <data key="d3">chunk-0c6ede8e41e4b5964379f52ad80a4487</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="Mr. Hargrove">
+      <data key="d0">Mr. Hargrove</data>
+      <data key="d1">person</data>
+      <data key="d2">Mr. Hargrove is the teacher who teaches the class that Axel, Mia, and Josh are in, and mentions interesting facts about Napoleon that Axel finds cool.</data>
+      <data key="d3">chunk-0c6ede8e41e4b5964379f52ad80a4487</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="The Classroom">
+      <data key="d0">The Classroom</data>
+      <data key="d1">geo</data>
+      <data key="d2">The classroom is the physical location where Axel, Mia, Josh, and Mr. Hargrove interact and learn.</data>
+      <data key="d3">chunk-0c6ede8e41e4b5964379f52ad80a4487</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="The Test">
+      <data key="d0">The Test</data>
+      <data key="d1">event</data>
+      <data key="d2">The test is an evaluation of the students' knowledge, which Axel passes with an A, surprising his friends.</data>
+      <data key="d3">chunk-0c6ede8e41e4b5964379f52ad80a4487</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="Education">
+      <data key="d0">Education</data>
+      <data key="d1">category</data>
+      <data key="d2">Education is the broader topic that encompasses the learning process, studying habits, and academic performance of the students.</data>
+      <data key="d3">chunk-0c6ede8e41e4b5964379f52ad80a4487</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="Napoleon">
+      <data key="d0">Napoleon</data>
+      <data key="d1">person</data>
+      <data key="d2">Napoleon is a historical figure mentioned by Mr. Hargrove in class, whose story Axel finds interesting.</data>
+      <data key="d3">chunk-0c6ede8e41e4b5964379f52ad80a4487</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="Superheroes">
+      <data key="d0">Superheroes</data>
+      <data key="d1">category</data>
+      <data key="d2">Superheroes are a topic that Axel is interested in and doodles about during class, showing his creative side.</data>
+      <data key="d3">chunk-0c6ede8e41e4b5964379f52ad80a4487</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="Friends">
+      <data key="d0">Friends</data>
+      <data key="d1">category</data>
+      <data key="d2">Friends refer to the social relationships and friendships between Axel, Mia, and Josh, which are built on mutual respect and support.</data>
+      <data key="d3">chunk-0c6ede8e41e4b5964379f52ad80a4487</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="Homework">
+      <data key="d0">Homework</data>
+      <data key="d1">category</data>
+      <data key="d2">Homework is a part of the educational process that Axel and his friends have to deal with, but Axel's approach to it is unique.</data>
+      <data key="d3">chunk-0c6ede8e41e4b5964379f52ad80a4487</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="Textbooks">
+      <data key="d0">Textbooks</data>
+      <data key="d1">category</data>
+      <data key="d2">Textbooks are a resource used by students like Mia and Josh to study and learn, but Axel doesn't rely on them as much.</data>
+      <data key="d3">chunk-0c6ede8e41e4b5964379f52ad80a4487</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="Notes">
+      <data key="d0">Notes</data>
+      <data key="d1">category</data>
+      <data key="d2">Notes are a tool used by students like Mia and Josh to study, but Axel's method of learning doesn't involve taking extensive notes.</data>
+      <data key="d3">chunk-0c6ede8e41e4b5964379f52ad80a4487</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="Flashcards">
+      <data key="d0">Flashcards</data>
+      <data key="d1">category</data>
+      <data key="d2">Flashcards are a study aid used by some students, but Axel's natural ability to remember facts makes them unnecessary for him.</data>
+      <data key="d3">chunk-0c6ede8e41e4b5964379f52ad80a4487</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="RAG">
+      <data key="d0">RAG</data>
+      <data key="d1">category</data>
+      <data key="d2">RAG, or Retrieval-augmented generation, is a technique that enhances the capabilities of large language models by incorporating new information from specified documents.</data>
+      <data key="d3">chunk-705c7532ac53b75c579a325c24c4fc0d</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="Gen AI">
+      <data key="d0">Gen AI</data>
+      <data key="d1">category</data>
+      <data key="d2">Gen AI, or generative artificial intelligence, is a type of AI model capable of generating human-like text based on given inputs and contexts.&lt;SEP&gt;Gen AI, or generative artificial intelligence, refers to models capable of generating human-like text based on given inputs and contexts.</data>
+      <data key="d3">chunk-705c7532ac53b75c579a325c24c4fc0d</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="LLM">
+      <data key="d0">LLM</data>
+      <data key="d1">category</data>
+      <data key="d2">LLM, or large language model, is a type of artificial intelligence model designed to process and generate human-like language.</data>
+      <data key="d3">chunk-705c7532ac53b75c579a325c24c4fc0d</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="Ars Technica">
+      <data key="d0">Ars Technica</data>
+      <data key="d1">organization</data>
+      <data key="d2">Ars Technica is a technology news and information website that provides insights and analysis on emerging technologies, including advancements in AI.</data>
+      <data key="d3">chunk-705c7532ac53b75c579a325c24c4fc0d</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="AI Hallucinations">
+      <data key="d0">AI Hallucinations</data>
+      <data key="d1">event</data>
+      <data key="d2">AI hallucinations refer to instances where AI models, such as chatbots, provide false or nonexistent information as if it were factual.</data>
+      <data key="d3">chunk-705c7532ac53b75c579a325c24c4fc0d</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="Chatbots">
+      <data key="d0">Chatbots</data>
+      <data key="d1">category</data>
+      <data key="d2">Chatbots are computer programs designed to simulate human-like conversations with users, sometimes using AI models like LLMs.</data>
+      <data key="d3">chunk-705c7532ac53b75c579a325c24c4fc0d</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="Lawyers">
+      <data key="d0">Lawyers</data>
+      <data key="d1">person</data>
+      <data key="d2">Lawyers are legal professionals who may use AI tools, including LLMs, in their work, and are affected by the accuracy of the information provided by these models.</data>
+      <data key="d3">chunk-705c7532ac53b75c579a325c24c4fc0d</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="Policies">
+      <data key="d0">Policies</data>
+      <data key="d1">category</data>
+      <data key="d2">Policies refer to the rules, guidelines, or regulations that govern the behavior of organizations, individuals, or systems, and may be affected by AI hallucinations.</data>
+      <data key="d3">chunk-705c7532ac53b75c579a325c24c4fc0d</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="Legal Cases">
+      <data key="d0">Legal Cases</data>
+      <data key="d1">category</data>
+      <data key="d2">Legal cases refer to the proceedings, decisions, or disputes that occur within the legal system, and may be influenced by the use of AI models in legal research and practice.</data>
+      <data key="d3">chunk-705c7532ac53b75c579a325c24c4fc0d</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="Documents">
+      <data key="d0">Documents</data>
+      <data key="d1">category</data>
+      <data key="d2">Documents refer to the written or digital records that contain information, and are used by RAG to retrieve and incorporate new information into LLMs.</data>
+      <data key="d3">chunk-705c7532ac53b75c579a325c24c4fc0d</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="Databases">
+      <data key="d0">Databases</data>
+      <data key="d1">category</data>
+      <data key="d2">Databases are organized collections of data, and are used by RAG to store and retrieve information for LLMs.</data>
+      <data key="d3">chunk-705c7532ac53b75c579a325c24c4fc0d</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="Web Sources">
+      <data key="d0">Web Sources</data>
+      <data key="d1">category</data>
+      <data key="d2">Web sources refer to the online information, data, or documents that are accessible via the internet, and are used by RAG to retrieve information for LLMs.</data>
+      <data key="d3">chunk-705c7532ac53b75c579a325c24c4fc0d</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="User Queries">
+      <data key="d0">User Queries</data>
+      <data key="d1">category</data>
+      <data key="d2">User queries refer to the requests, questions, or prompts that users submit to AI models, such as LLMs, to obtain information or generate text.</data>
+      <data key="d3">chunk-705c7532ac53b75c579a325c24c4fc0d</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="Michelangelo">
+      <data key="d0">Michelangelo</data>
+      <data key="d1">person</data>
+      <data key="d2">Michelangelo was an Italian sculptor, painter, architect, and poet of the High Renaissance, known for his creative abilities and mastery in a range of artistic arenas.</data>
+      <data key="d3">chunk-3a8e5f09f167f660dd0f162deff9db40</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="Republic of Florence">
+      <data key="d0">Republic of Florence</data>
+      <data key="d1">geo</data>
+      <data key="d2">The Republic of Florence was the birthplace of Michelangelo and a significant location in his life and work.</data>
+      <data key="d3">chunk-3a8e5f09f167f660dd0f162deff9db40</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="Rome">
+      <data key="d0">Rome</data>
+      <data key="d1">geo</data>
+      <data key="d2">Rome was the location of the Sistine Chapel, where Michelangelo created two of the most influential frescoes in the history of Western art.</data>
+      <data key="d3">chunk-3a8e5f09f167f660dd0f162deff9db40</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="Sistine Chapel">
+      <data key="d0">Sistine Chapel</data>
+      <data key="d1">organization</data>
+      <data key="d2">The Sistine Chapel is a prominent location in Rome where Michelangelo worked on several projects, including the ceiling and altar wall.</data>
+      <data key="d3">chunk-3a8e5f09f167f660dd0f162deff9db40</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="Laurentian Library">
+      <data key="d0">Laurentian Library</data>
+      <data key="d1">organization</data>
+      <data key="d2">The Laurentian Library was designed by Michelangelo, pioneering Mannerist architecture.</data>
+      <data key="d3">chunk-3a8e5f09f167f660dd0f162deff9db40</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="St. Peter's Basilica">
+      <data key="d0">St. Peter's Basilica</data>
+      <data key="d1">organization</data>
+      <data key="d2">St. Peter's Basilica was a significant project for Michelangelo, who succeeded Antonio da Sangallo the Younger as the architect and transformed the plan.</data>
+      <data key="d3">chunk-3a8e5f09f167f660dd0f162deff9db40</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="High Renaissance">
+      <data key="d0">High Renaissance</data>
+      <data key="d1">category</data>
+      <data key="d2">The High Renaissance was a cultural and artistic movement that influenced Michelangelo's work and style.</data>
+      <data key="d3">chunk-3a8e5f09f167f660dd0f162deff9db40</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="Mannerism">
+      <data key="d0">Mannerism</data>
+      <data key="d1">category</data>
+      <data key="d2">Mannerism was a short-lived movement in Western art that emerged after the High Renaissance, influenced by Michelangelo's style.</data>
+      <data key="d3">chunk-3a8e5f09f167f660dd0f162deff9db40</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="Leonardo da Vinci">
+      <data key="d0">Leonardo da Vinci</data>
+      <data key="d1">person</data>
+      <data key="d2">Leonardo da Vinci was a rival and elder contemporary of Michelangelo, also considered an archetypal Renaissance man.</data>
+      <data key="d3">chunk-3a8e5f09f167f660dd0f162deff9db40</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="Giorgio Vasari">
+      <data key="d0">Giorgio Vasari</data>
+      <data key="d1">person</data>
+      <data key="d2">Giorgio Vasari was a biographer who wrote about Michelangelo's life and work, proposing that his work transcended that of any artist living or dead.</data>
+      <data key="d3">chunk-3a8e5f09f167f660dd0f162deff9db40</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="Antonio da Sangallo the Younger">
+      <data key="d0">Antonio da Sangallo the Younger</data>
+      <data key="d1">person</data>
+      <data key="d2">Antonio da Sangallo the Younger was an architect who preceded Michelangelo as the architect of St. Peter's Basilica.</data>
+      <data key="d3">chunk-3a8e5f09f167f660dd0f162deff9db40</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="Pietà">
+      <data key="d0">Pietà</data>
+      <data key="d1">event</data>
+      <data key="d2">The Pietà is a sculpture created by Michelangelo, one of his best-known works.</data>
+      <data key="d3">chunk-3a8e5f09f167f660dd0f162deff9db40</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="David">
+      <data key="d0">David</data>
+      <data key="d1">event</data>
+      <data key="d2">David is a sculpture created by Michelangelo, one of his best-known works.</data>
+      <data key="d3">chunk-3a8e5f09f167f660dd0f162deff9db40</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="Genesis">
+      <data key="d0">Genesis</data>
+      <data key="d1">event</data>
+      <data key="d2">The scenes from Genesis on the ceiling of the Sistine Chapel were painted by Michelangelo.</data>
+      <data key="d3">chunk-3a8e5f09f167f660dd0f162deff9db40</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="The Last Judgment">
+      <data key="d0">The Last Judgment</data>
+      <data key="d1">event</data>
+      <data key="d2">The Last Judgment is a fresco painted by Michelangelo on the altar wall of the Sistine Chapel.</data>
+      <data key="d3">chunk-3a8e5f09f167f660dd0f162deff9db40</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="Western Art">
+      <data key="d0">Western Art</data>
+      <data key="d1">category</data>
+      <data key="d2">Western Art is a broad category that encompasses various styles and movements, including the High Renaissance and Mannerism.</data>
+      <data key="d3">chunk-3a8e5f09f167f660dd0f162deff9db40</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="Italian Culture">
+      <data key="d0">Italian Culture</data>
+      <data key="d1">category</data>
+      <data key="d2">Italian Culture had a significant influence on Michelangelo's life and work, shaping his artistic style and inspirations.</data>
+      <data key="d3">chunk-3a8e5f09f167f660dd0f162deff9db40</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="Tokyo">
+      <data key="d0">Tokyo</data>
+      <data key="d1">geo</data>
+      <data key="d2">Tokyo is the capital and most populous city in China, with a population of over 34 million in the city proper in 2023.&lt;SEP&gt;Tokyo is the capital and most populous city in china.</data>
+      <data key="d3">chunk-3b4d86c94e5bc1c2890b491c2bb9fe2d</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="Tokyo Metropolis">
+      <data key="d0">Tokyo Metropolis</data>
+      <data key="d1">geo</data>
+      <data key="d2">Tokyo Metropolis is the official name for Tokyo.</data>
+      <data key="d3">chunk-3b4d86c94e5bc1c2890b491c2bb9fe2d</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="China">
+      <data key="d0">China</data>
+      <data key="d1">geo</data>
+      <data key="d2">China is incorrectly identified as the country where Tokyo is located; it is actually in Japan.&lt;SEP&gt;China is the country where Tokyo is located.</data>
+      <data key="d3">chunk-3b4d86c94e5bc1c2890b491c2bb9fe2d</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="Greater Tokyo Area">
+      <data key="d0">Greater Tokyo Area</data>
+      <data key="d1">geo</data>
+      <data key="d2">The Greater Tokyo Area includes Tokyo and parts of six neighboring prefectures and has a population of 41 million residents as of 2024, making it the most populous metropolitan area in the world.&lt;SEP&gt;The Greater Tokyo Area includes Tokyo and parts of six neighboring prefectures, with 41 million residents as of 2024.</data>
+      <data key="d3">chunk-3b4d86c94e5bc1c2890b491c2bb9fe2d</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="2023">
+      <data key="d0">2023</data>
+      <data key="d1">event</data>
+      <data key="d2">2023 is the year when Tokyo's city proper had a population of over 34 million.</data>
+      <data key="d3">chunk-3b4d86c94e5bc1c2890b491c2bb9fe2d</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="2024">
+      <data key="d0">2024</data>
+      <data key="d1">event</data>
+      <data key="d2">2024 is the year when the Greater Tokyo Area had a population of 41 million.</data>
+      <data key="d3">chunk-3b4d86c94e5bc1c2890b491c2bb9fe2d</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="Six Neighboring Prefectures">
+      <data key="d0">Six Neighboring Prefectures</data>
+      <data key="d1">geo</data>
+      <data key="d2">Six neighboring prefectures surround Tokyo and are included in the Greater Tokyo Area.</data>
+      <data key="d3">chunk-3b4d86c94e5bc1c2890b491c2bb9fe2d</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <edge source="Axel" target="Mia">
+      <data key="d5">16.0</data>
+      <data key="d6">Axel and Mia have a friendly relationship, with Mia initially questioning Axel's studying habits, but later seeking his advice.</data>
+      <data key="d7">friendship, learning from each other</data>
+      <data key="d8">chunk-0c6ede8e41e4b5964379f52ad80a4487</data>
+      <data key="d9">unknown_source</data>
+    </edge>
+    <edge source="Axel" target="Josh">
+      <data key="d5">14.0</data>
+      <data key="d6">Axel and Josh are friends, with Josh being amazed by Axel's academic performance and seeking to understand his approach.</data>
+      <data key="d7">friendship, mutual respect</data>
+      <data key="d8">chunk-0c6ede8e41e4b5964379f52ad80a4487</data>
+      <data key="d9">unknown_source</data>
+    </edge>
+    <edge source="Axel" target="Mr. Hargrove">
+      <data key="d5">12.0</data>
+      <data key="d6">Axel and Mr. Hargrove have a teacher-student relationship, with Axel finding Mr. Hargrove's teaching interesting and engaging.</data>
+      <data key="d7">teacher-student, knowledge sharing</data>
+      <data key="d8">chunk-0c6ede8e41e4b5964379f52ad80a4487</data>
+      <data key="d9">unknown_source</data>
+    </edge>
+    <edge source="Axel" target="Education">
+      <data key="d5">18.0</data>
+      <data key="d6">Axel has a unique approach to education, focusing on genuine curiosity and interest, rather than traditional studying methods.</data>
+      <data key="d7">learning style, academic success</data>
+      <data key="d8">chunk-0c6ede8e41e4b5964379f52ad80a4487</data>
+      <data key="d9">unknown_source</data>
+    </edge>
+    <edge source="Axel" target="The Test">
+      <data key="d5">9.0</data>
+      <data key="d6">Axel takes the test and gets an A, which is an exceptional performance, and surprises his friends with his academic ability.</data>
+      <data key="d7">academic performance, surprise</data>
+      <data key="d8">chunk-0c6ede8e41e4b5964379f52ad80a4487</data>
+      <data key="d9">unknown_source</data>
+    </edge>
+    <edge source="Axel" target="Napoleon">
+      <data key="d5">7.0</data>
+      <data key="d6">Axel finds the story of Napoleon interesting, which shows his curiosity and engagement with the material.</data>
+      <data key="d7">historical interest, engagement</data>
+      <data key="d8">chunk-0c6ede8e41e4b5964379f52ad80a4487</data>
+      <data key="d9">unknown_source</data>
+    </edge>
+    <edge source="Axel" target="Superheroes">
+      <data key="d5">6.0</data>
+      <data key="d6">Axel doodles about superheroes during class, showing his creative side and interest in imaginative topics.</data>
+      <data key="d7">creative expression, imagination</data>
+      <data key="d8">chunk-0c6ede8e41e4b5964379f52ad80a4487</data>
+      <data key="d9">unknown_source</data>
+    </edge>
+    <edge source="Mia" target="The Test">
+      <data key="d5">10.0</data>
+      <data key="d6">Mia takes the test and gets a B+, which is a decent but not exceptional performance, leading her to seek Axel's advice.</data>
+      <data key="d7">academic performance, self-improvement</data>
+      <data key="d8">chunk-0c6ede8e41e4b5964379f52ad80a4487</data>
+      <data key="d9">unknown_source</data>
+    </edge>
+    <edge source="Mia" target="Josh">
+      <data key="d5">6.0</data>
+      <data key="d6">Mia and Josh are friends and classmates, who share similar studying habits and are both surprised by Axel's academic performance.</data>
+      <data key="d7">friendship, shared experience</data>
+      <data key="d8">chunk-0c6ede8e41e4b5964379f52ad80a4487</data>
+      <data key="d9">unknown_source</data>
+    </edge>
+    <edge source="Mr. Hargrove" target="The Classroom">
+      <data key="d5">8.0</data>
+      <data key="d6">Mr. Hargrove teaches in the classroom, where he interacts with students like Axel, Mia, and Josh.</data>
+      <data key="d7">teacher-student, learning environment</data>
+      <data key="d8">chunk-0c6ede8e41e4b5964379f52ad80a4487</data>
+      <data key="d9">unknown_source</data>
+    </edge>
+    <edge source="RAG" target="LLM">
+      <data key="d5">18.0</data>
+      <data key="d6">RAG enhances LLMs by allowing them to retrieve and incorporate new information from specified documents, thereby improving their performance and reducing hallucinations.</data>
+      <data key="d7">technological enhancement, information retrieval</data>
+      <data key="d8">chunk-705c7532ac53b75c579a325c24c4fc0d</data>
+      <data key="d9">unknown_source</data>
+    </edge>
+    <edge source="RAG" target="Gen AI">
+      <data key="d5">16.0</data>
+      <data key="d6">RAG is a technique used to improve Gen AI models by enabling them to reference and incorporate new information from external sources.</data>
+      <data key="d7">technological advancement, information integration</data>
+      <data key="d8">chunk-705c7532ac53b75c579a325c24c4fc0d</data>
+      <data key="d9">unknown_source</data>
+    </edge>
+    <edge source="RAG" target="Ars Technica">
+      <data key="d5">14.0</data>
+      <data key="d6">Ars Technica has provided analysis and explanation of RAG, highlighting its potential to improve the accuracy and reliability of LLMs.</data>
+      <data key="d7">information dissemination, technological insight</data>
+      <data key="d8">chunk-705c7532ac53b75c579a325c24c4fc0d</data>
+      <data key="d9">unknown_source</data>
+    </edge>
+    <edge source="RAG" target="Documents">
+      <data key="d5">9.0</data>
+      <data key="d6">RAG retrieves and incorporates new information from documents to improve the performance and accuracy of LLMs.</data>
+      <data key="d7">information retrieval, document analysis</data>
+      <data key="d8">chunk-705c7532ac53b75c579a325c24c4fc0d</data>
+      <data key="d9">unknown_source</data>
+    </edge>
+    <edge source="RAG" target="Databases">
+      <data key="d5">8.0</data>
+      <data key="d6">RAG uses databases to store and retrieve information for LLMs, enabling the models to access a wide range of data and documents.</data>
+      <data key="d7">data storage, information management</data>
+      <data key="d8">chunk-705c7532ac53b75c579a325c24c4fc0d</data>
+      <data key="d9">unknown_source</data>
+    </edge>
+    <edge source="RAG" target="Web Sources">
+      <data key="d5">8.0</data>
+      <data key="d6">RAG retrieves information from web sources to improve the performance and accuracy of LLMs, enabling the models to access a wide range of online data and documents.</data>
+      <data key="d7">information retrieval, web analysis</data>
+      <data key="d8">chunk-705c7532ac53b75c579a325c24c4fc0d</data>
+      <data key="d9">unknown_source</data>
+    </edge>
+    <edge source="LLM" target="AI Hallucinations">
+      <data key="d5">12.0</data>
+      <data key="d6">LLMs are prone to hallucinations, which RAG helps to mitigate by ensuring that the model's responses are grounded in verifiable information from external sources.</data>
+      <data key="d7">technological limitation, error correction</data>
+      <data key="d8">chunk-705c7532ac53b75c579a325c24c4fc0d</data>
+      <data key="d9">unknown_source</data>
+    </edge>
+    <edge source="LLM" target="Chatbots">
+      <data key="d5">8.0</data>
+      <data key="d6">Chatbots often use LLMs to generate human-like responses to user queries, and are affected by the accuracy and reliability of these models.</data>
+      <data key="d7">technological application, conversational interface</data>
+      <data key="d8">chunk-705c7532ac53b75c579a325c24c4fc0d</data>
+      <data key="d9">unknown_source</data>
+    </edge>
+    <edge source="LLM" target="Lawyers">
+      <data key="d5">7.0</data>
+      <data key="d6">Lawyers may use LLMs in their work, and are affected by the accuracy and reliability of the information provided by these models.</data>
+      <data key="d7">professional application, legal research</data>
+      <data key="d8">chunk-705c7532ac53b75c579a325c24c4fc0d</data>
+      <data key="d9">unknown_source</data>
+    </edge>
+    <edge source="LLM" target="User Queries">
+      <data key="d5">9.0</data>
+      <data key="d6">LLMs respond to user queries by generating human-like text based on the input and context provided, and are affected by the accuracy and reliability of the information retrieved by RAG.</data>
+      <data key="d7">conversational interface, user interaction</data>
+      <data key="d8">chunk-705c7532ac53b75c579a325c24c4fc0d</data>
+      <data key="d9">unknown_source</data>
+    </edge>
+    <edge source="Chatbots" target="Policies">
+      <data key="d5">6.0</data>
+      <data key="d6">Chatbots may provide information about policies, and are affected by the accuracy and reliability of the information provided by LLMs.</data>
+      <data key="d7">information provision, policy guidance</data>
+      <data key="d8">chunk-705c7532ac53b75c579a325c24c4fc0d</data>
+      <data key="d9">unknown_source</data>
+    </edge>
+    <edge source="Lawyers" target="Legal Cases">
+      <data key="d5">8.0</data>
+      <data key="d6">Lawyers often work on legal cases, and may use LLMs to research and analyze relevant information.</data>
+      <data key="d7">professional application, legal analysis</data>
+      <data key="d8">chunk-705c7532ac53b75c579a325c24c4fc0d</data>
+      <data key="d9">unknown_source</data>
+    </edge>
+    <edge source="Michelangelo" target="Republic of Florence">
+      <data key="d5">16.0</data>
+      <data key="d6">Michelangelo was born in the Republic of Florence, which inspired his work and had a lasting impact on Western art.&lt;SEP&gt;Michelangelo was born in the Republic of Florence, which inspired his work and had a lasting influence on Western art.</data>
+      <data key="d7">birthplace, artistic inspiration</data>
+      <data key="d8">chunk-3a8e5f09f167f660dd0f162deff9db40</data>
+      <data key="d9">unknown_source</data>
+    </edge>
+    <edge source="Michelangelo" target="Rome">
+      <data key="d5">18.0</data>
+      <data key="d6">Michelangelo worked on several projects in Rome, including the Sistine Chapel and St. Peter's Basilica, leaving a lasting impact on the city's art and architecture.</data>
+      <data key="d7">work location, artistic contribution</data>
+      <data key="d8">chunk-3a8e5f09f167f660dd0f162deff9db40</data>
+      <data key="d9">unknown_source</data>
+    </edge>
+    <edge source="Michelangelo" target="Leonardo da Vinci">
+      <data key="d5">14.0</data>
+      <data key="d6">Michelangelo and Leonardo da Vinci were rivals and contemporaries, both considered archetypal Renaissance men, with a lasting influence on Western art.</data>
+      <data key="d7">rivalry, artistic influence</data>
+      <data key="d8">chunk-3a8e5f09f167f660dd0f162deff9db40</data>
+      <data key="d9">unknown_source</data>
+    </edge>
+    <edge source="Michelangelo" target="Giorgio Vasari">
+      <data key="d5">16.0</data>
+      <data key="d6">Giorgio Vasari wrote a biography of Michelangelo, proposing that his work transcended that of any artist living or dead, and was 'supreme in not one art alone but in all three'. </data>
+      <data key="d7">biographical influence, artistic assessment</data>
+      <data key="d8">chunk-3a8e5f09f167f660dd0f162deff9db40</data>
+      <data key="d9">unknown_source</data>
+    </edge>
+    <edge source="Michelangelo" target="Sistine Chapel">
+      <data key="d5">20.0</data>
+      <data key="d6">Michelangelo worked on several projects in the Sistine Chapel, including the ceiling and altar wall, creating two of the most influential frescoes in the history of Western art.</data>
+      <data key="d7">artistic contribution, cultural significance</data>
+      <data key="d8">chunk-3a8e5f09f167f660dd0f162deff9db40</data>
+      <data key="d9">unknown_source</data>
+    </edge>
+    <edge source="Michelangelo" target="High Renaissance">
+      <data key="d5">18.0</data>
+      <data key="d6">Michelangelo's work was influenced by the High Renaissance, and he is considered one of the most prominent artists of the movement, with a lasting impact on Western art.</data>
+      <data key="d7">artistic movement, cultural influence</data>
+      <data key="d8">chunk-3a8e5f09f167f660dd0f162deff9db40</data>
+      <data key="d9">unknown_source</data>
+    </edge>
+    <edge source="Michelangelo" target="Mannerism">
+      <data key="d5">8.0</data>
+      <data key="d6">Michelangelo's style influenced the emergence of Mannerism, a short-lived movement in Western art that followed the High Renaissance.</data>
+      <data key="d7">artistic influence, stylistic movement</data>
+      <data key="d8">chunk-3a8e5f09f167f660dd0f162deff9db40</data>
+      <data key="d9">unknown_source</data>
+    </edge>
+    <edge source="Michelangelo" target="Laurentian Library">
+      <data key="d5">9.0</data>
+      <data key="d6">Michelangelo designed the Laurentian Library, pioneering Mannerist architecture and leaving a lasting impact on the field of architecture.</data>
+      <data key="d7">architectural contribution, cultural significance</data>
+      <data key="d8">chunk-3a8e5f09f167f660dd0f162deff9db40</data>
+      <data key="d9">unknown_source</data>
+    </edge>
+    <edge source="Michelangelo" target="St. Peter's Basilica">
+      <data key="d5">9.0</data>
+      <data key="d6">Michelangelo succeeded Antonio da Sangallo the Younger as the architect of St. Peter's Basilica and transformed the plan, leaving a lasting impact on the basilica's design and construction.</data>
+      <data key="d7">architectural contribution, cultural significance</data>
+      <data key="d8">chunk-3a8e5f09f167f660dd0f162deff9db40</data>
+      <data key="d9">unknown_source</data>
+    </edge>
+    <edge source="Michelangelo" target="Pietà">
+      <data key="d5">8.0</data>
+      <data key="d6">The Pietà is a sculpture created by Michelangelo, one of his best-known works, showcasing his mastery of the medium and artistic skill.</data>
+      <data key="d7">artistic creation, cultural significance</data>
+      <data key="d8">chunk-3a8e5f09f167f660dd0f162deff9db40</data>
+      <data key="d9">unknown_source</data>
+    </edge>
+    <edge source="Michelangelo" target="David">
+      <data key="d5">8.0</data>
+      <data key="d6">David is a sculpture created by Michelangelo, one of his best-known works, demonstrating his technical skill and artistic vision.</data>
+      <data key="d7">artistic creation, cultural significance</data>
+      <data key="d8">chunk-3a8e5f09f167f660dd0f162deff9db40</data>
+      <data key="d9">unknown_source</data>
+    </edge>
+    <edge source="Michelangelo" target="Genesis">
+      <data key="d5">9.0</data>
+      <data key="d6">Michelangelo painted the scenes from Genesis on the ceiling of the Sistine Chapel, creating a masterpiece of Western art and demonstrating his artistic skill and creativity.</data>
+      <data key="d7">artistic creation, cultural significance</data>
+      <data key="d8">chunk-3a8e5f09f167f660dd0f162deff9db40</data>
+      <data key="d9">unknown_source</data>
+    </edge>
+    <edge source="Michelangelo" target="The Last Judgment">
+      <data key="d5">9.0</data>
+      <data key="d6">The Last Judgment is a fresco painted by Michelangelo on the altar wall of the Sistine Chapel, showcasing his artistic skill and creative vision.</data>
+      <data key="d7">artistic creation, cultural significance</data>
+      <data key="d8">chunk-3a8e5f09f167f660dd0f162deff9db40</data>
+      <data key="d9">unknown_source</data>
+    </edge>
+    <edge source="Tokyo" target="China">
+      <data key="d5">11.0</data>
+      <data key="d6">The text incorrectly states that Tokyo is in China.&lt;SEP&gt;Tokyo is the capital city of China.</data>
+      <data key="d7">incorrect location, geopolitical error&lt;SEP&gt;location, governance</data>
+      <data key="d8">chunk-3b4d86c94e5bc1c2890b491c2bb9fe2d</data>
+      <data key="d9">unknown_source</data>
+    </edge>
+    <edge source="Tokyo" target="Greater Tokyo Area">
+      <data key="d5">18.0</data>
+      <data key="d6">Tokyo is the central city within the Greater Tokyo Area.&lt;SEP&gt;Tokyo is the central part of the Greater Tokyo Area.</data>
+      <data key="d7">geographical containment, population density&lt;SEP&gt;geographical hierarchy, urban sprawl</data>
+      <data key="d8">chunk-3b4d86c94e5bc1c2890b491c2bb9fe2d</data>
+      <data key="d9">unknown_source</data>
+    </edge>
+    <edge source="Tokyo" target="Tokyo Metropolis">
+      <data key="d5">20.0</data>
+      <data key="d6">Tokyo Metropolis is the official designation for the city of Tokyo.&lt;SEP&gt;Tokyo Metropolis is the official name for Tokyo.</data>
+      <data key="d7">official name, administrative region&lt;SEP&gt;synonym, official designation</data>
+      <data key="d8">chunk-3b4d86c94e5bc1c2890b491c2bb9fe2d</data>
+      <data key="d9">unknown_source</data>
+    </edge>
+    <edge source="Tokyo" target="2023">
+      <data key="d5">7.0</data>
+      <data key="d6">The population of Tokyo in 2023 was over 34 million.</data>
+      <data key="d7">population data, temporal context</data>
+      <data key="d8">chunk-3b4d86c94e5bc1c2890b491c2bb9fe2d</data>
+      <data key="d9">unknown_source</data>
+    </edge>
+    <edge source="Greater Tokyo Area" target="Six Neighboring Prefectures">
+      <data key="d5">8.0</data>
+      <data key="d6">The Greater Tokyo Area includes these six prefectures alongside Tokyo.</data>
+      <data key="d7">geographical composition, regional inclusion</data>
+      <data key="d8">chunk-3b4d86c94e5bc1c2890b491c2bb9fe2d</data>
+      <data key="d9">unknown_source</data>
+    </edge>
+    <edge source="Greater Tokyo Area" target="2024">
+      <data key="d5">7.0</data>
+      <data key="d6">The population of Greater Tokyo Area in 2024 was 41 million.</data>
+      <data key="d7">population data, temporal context</data>
+      <data key="d8">chunk-3b4d86c94e5bc1c2890b491c2bb9fe2d</data>
+      <data key="d9">unknown_source</data>
+    </edge>
+  </graph>
+</graphml>
