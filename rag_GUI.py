@@ -12,10 +12,10 @@ from lightrag.utils import EmbeddingFunc
 from lightrag.kg.shared_storage import initialize_pipeline_status
 import dotenv
 import streamlit as st
-import sqlite3
-__import__('pysqlite3')
-import sys
-sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+#import sqlite3
+#__import__('pysqlite3')
+#import sys
+#sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
 
 # Load environment variables from .env file
@@ -100,11 +100,7 @@ async def initialize_rag():
             embedding_dim=384,
             max_token_size=8192,
             func=embedding_func,
-        ),
-        vector_storage="ChromaVectorDBStorage",
-        vector_db_storage_cls_kwargs={
-                "local_path": CHROMADB_LOCAL_PATH,
-        }
+        )
     )
 
     await rag.initialize_storages()
