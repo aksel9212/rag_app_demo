@@ -12,6 +12,10 @@ from lightrag.utils import EmbeddingFunc
 from lightrag.kg.shared_storage import initialize_pipeline_status
 import dotenv
 import streamlit as st
+import sqlite3
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
 
 # Load environment variables from .env file
