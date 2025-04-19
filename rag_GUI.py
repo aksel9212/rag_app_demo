@@ -102,7 +102,7 @@ async def initialize_rag():
             max_token_size=8192,
             func=embedding_func,
         ),
-        vector_storage="Neo4JStorage",
+        
     )
 
     await rag.initialize_storages()
