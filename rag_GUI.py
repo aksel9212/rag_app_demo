@@ -27,6 +27,7 @@ if not os.path.exists(WORKING_DIR):
 groq_api_key = st.secrets.groq_api_key #os.getenv("GROQ_API_KEY")
 groq_client = Groq(api_key=groq_api_key)
 gemini_api_key = st.secrets.google_api_key #os.getenv('GOOGLE_API_KEY') 
+st.info(gemini_api_key)
 genai.configure(api_key=gemini_api_key)
 model = genai.GenerativeModel("gemini-2.0-flash")
 
