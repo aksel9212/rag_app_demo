@@ -12,15 +12,7 @@ from lightrag.utils import EmbeddingFunc
 from lightrag.kg.shared_storage import initialize_pipeline_status
 import dotenv
 import streamlit as st
-"""
-import sqlite3
-__import__('pysqlite3')
-import sys
-sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
-"""
 
-# Load environment variables from .env file
-#dotenv.load_dotenv()
 
 WORKING_DIR = "rag-data"
 DOCS_DIR = WORKING_DIR + "/docs"
@@ -32,7 +24,6 @@ if not os.path.exists(WORKING_DIR):
 groq_api_key = st.secrets.groq_api_key #os.getenv("GROQ_API_KEY")
 groq_client = Groq(api_key=groq_api_key)
 gemini_api_key = st.secrets.google_api_key #os.getenv('GOOGLE_API_KEY') 
-st.info(gemini_api_key)
 genai.configure(api_key=gemini_api_key)
 model = genai.GenerativeModel("gemini-2.0-flash")
 
