@@ -159,6 +159,12 @@ def display_message_part(part):
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+def save_docs(docs):
+    
+    for doc in docs:
+        file_path = os.path.join(DOCS_DIR, doc.name)
+        with open(file_path ,'wb') as fp:
+            fp.write(doc.getbuffer())
 
 
 def main():
@@ -180,7 +186,9 @@ def main():
                 st.markdown(msg['content'])    
         
     with st.sidebar:
+        new_docs = st.file_uploader("Upload PDF files here and update index.", accept_multiple_files=True)
         if st.button("Update Index"):
+            save_docs(new_docs)
             run_new_indexing()
         if st.button("Exit"):
             st.write("Good Bye...!")
