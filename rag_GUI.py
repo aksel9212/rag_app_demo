@@ -12,7 +12,7 @@ from lightrag.utils import EmbeddingFunc
 from lightrag.kg.shared_storage import initialize_pipeline_status
 import dotenv
 import streamlit as st
-
+from pypdf import PdfReader
 
 WORKING_DIR = "rag-data"
 DOCS_DIR = WORKING_DIR + "/docs"
@@ -102,21 +102,39 @@ async def initialize_rag():
     return rag
 
 
+def get_pdf_text(pdf_doc):
+
+    pages_text = []
+    
+    pdf_reader = PdfReader(pdf_doc)
+    for page in pdf_reader.pages:
+        text = page.extract_text()
+        pages_text.append(text)
+    return pages_text
+
 def run_new_indexing():
     documents = os.listdir(DOCS_DIR)
     docs_data = []
     citations = []
     for doc in documents:
+        doc_path = DOCS_DIR+"/"+doc
+
+        if os.path.splitext(doc)[1].lower() == '.pdf':
+            pdf_pages = get_pdf_text(doc_path)
+            docs_data += pdf_pages
+            citations += [doc_path] * len(pdf_pages)
+        else:
+            with open(doc_path,'r') as f:
+                docs_data.append(f.read())
+                citations.append(doc_path)
         
-        with open(DOCS_DIR+"/"+doc,'r') as f:
-            docs_data.append(f.read())
-            citations.append(DOCS_DIR+"/"+doc)
         if len(docs_data) == 10:
             st.session_state.rag.insert(docs_data)
             docs_data = []
-
+    print(docs_data)
     st.session_state.rag.insert(docs_data,file_paths=citations)
     print("documents indexed!!")
+
 
 def display_message_part(part):
     """

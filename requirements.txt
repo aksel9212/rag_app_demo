@@ -134,3 +134,4 @@ zipp==3.21.0
 google-generativeai
 lightrag-hku
 sentence_transformers
+pypdf
