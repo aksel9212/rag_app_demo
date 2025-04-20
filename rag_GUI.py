@@ -128,9 +128,10 @@ def run_new_indexing():
                 docs_data.append(f.read())
                 citations.append(doc_path)
         
-        if len(docs_data) == 10:
+        if len(docs_data) > 10:
             st.session_state.rag.insert(docs_data)
             docs_data = []
+            citations = []
     print(docs_data)
     st.session_state.rag.insert(docs_data,file_paths=citations)
     print("documents indexed!!")
