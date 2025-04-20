@@ -184,7 +184,7 @@ def main():
             # Properly consume the async generator with async for
             response = st.session_state.rag.query(
                         query=user_input,
-                        param=QueryParam(mode="local", top_k=1, response_type="single line"),
+                        param=QueryParam(mode="local", top_k=3, response_type="single line"),
             )
             
             # Final response without the cursor
