@@ -105,15 +105,17 @@ async def initialize_rag():
 def run_new_indexing():
     documents = os.listdir(DOCS_DIR)
     docs_data = []
+    citations = []
     for doc in documents:
-        print("index doc: ", doc)
+        
         with open(DOCS_DIR+"/"+doc,'r') as f:
             docs_data.append(f.read())
+            citations.append(DOCS_DIR+"/"+doc)
         if len(docs_data) == 10:
             st.session_state.rag.insert(docs_data)
             docs_data = []
-    print(docs_data)
-    st.session_state.rag.insert(docs_data)
+
+    st.session_state.rag.insert(docs_data,file_paths=citations)
     print("documents indexed!!")
 
 def display_message_part(part):
