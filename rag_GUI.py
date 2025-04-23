@@ -3,7 +3,9 @@ import numpy as np
 import asyncio
 from lightrag import LightRAG, QueryParam
 from lightrag.llm.hf import hf_model_complete, hf_embed
-#from lightrag.llm.openai import gpt_4o_mini_complete, openai_embed
+
+from lightrag.llm.openai import gpt_4o_mini_complete, openai_embed
+
 from sentence_transformers import SentenceTransformer
 from groq import Groq
 import google.generativeai as genai
@@ -25,6 +27,8 @@ groq_api_key = st.secrets.groq_api_key #os.getenv("GROQ_API_KEY")
 groq_client = Groq(api_key=groq_api_key)
 gemini_api_key = st.secrets.google_api_key #os.getenv('GOOGLE_API_KEY') 
 genai.configure(api_key=gemini_api_key)
+openai_api_key =  st.secrets.openai_api_key
+os.environ["OPENAI_API_KEY"] = openai_api_key
 model = genai.GenerativeModel("gemini-2.0-flash")
 
 async def llm_model_func_google(
@@ -76,20 +80,20 @@ async def llm_model_func(prompt,**kwargs) -> str:
     )
     return response.choices[0].message.content
 
-emb_model = SentenceTransformer("mixedbread-ai/mxbai-embed-large-v1", truncate_dim=512)
-async def embedding_func(texts: list[str]) -> np.ndarray:
-    embeddings = emb_model.encode(texts, convert_to_numpy=True)
-    return embeddings
+#emb_model = oneSentenceTransformer("mixedbread-ai/mxbai-embed-large-v1", truncate_dim=512)
+#async def embedding_func(texts: list[str]) -> np.ndarray:
+#    embeddings = emb_model.encode(texts, convert_to_numpy=True)
+#    return embeddings
 
 async def initialize_rag():
     rag = LightRAG(
         working_dir=WORKING_DIR,
-        llm_model_func=llm_model_func_google,
-        embedding_func=EmbeddingFunc(
-            embedding_dim=512,
-            max_token_size=8192,
-            func=embedding_func,
-        ),
+        llm_model_func=gpt_4o_mini_complete,#llm_model_func_google,
+        embedding_func=openai_embed #EmbeddingFunc(
+            #embedding_dim=512,
+            #max_token_size=8192,
+            #func=embedding_func,
+        #),
         
     )
 
