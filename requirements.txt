@@ -133,5 +133,6 @@ yarl==1.18.3
 zipp==3.21.0
 google-generativeai
 lightrag-hku
+torch==2.3.1
 sentence_transformers
 pypdf

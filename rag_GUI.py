@@ -76,20 +76,17 @@ async def llm_model_func(prompt,**kwargs) -> str:
     )
     return response.choices[0].message.content
 
+emb_model = SentenceTransformer("mixedbread-ai/mxbai-embed-large-v1", truncate_dim=512)
 async def embedding_func(texts: list[str]) -> np.ndarray:
-    model = SentenceTransformer("all-MiniLM-L6-v2")
-    embeddings = model.encode(texts, convert_to_numpy=True)
+    embeddings = emb_model.encode(texts, convert_to_numpy=True)
     return embeddings
 
-CHROMADB_LOCAL_PATH = os.environ.get(
-    "CHROMADB_LOCAL_PATH", os.path.join(WORKING_DIR, "chroma_data")
-)
 async def initialize_rag():
     rag = LightRAG(
         working_dir=WORKING_DIR,
         llm_model_func=llm_model_func_google,
         embedding_func=EmbeddingFunc(
-            embedding_dim=384,
+            embedding_dim=512,
             max_token_size=8192,
             func=embedding_func,
         ),
@@ -122,43 +119,21 @@ def run_new_indexing():
         if os.path.splitext(doc)[1].lower() == '.pdf':
             pdf_pages = get_pdf_text(doc_path)
             docs_data += pdf_pages
-            citations += [doc_path] * len(pdf_pages)
+            #citations += [doc_path] * len(pdf_pages)
+            citations += [doc_path + f"_page {i+1}" for i in range(len(pdf_pages))]
         else:
             with open(doc_path,'r') as f:
                 docs_data.append(f.read())
                 citations.append(doc_path)
         
         if len(docs_data) > 10:
-            st.session_state.rag.insert(docs_data)
+            st.session_state.rag.insert(docs_data,file_paths=citations)
             docs_data = []
             citations = []
     print(docs_data)
     st.session_state.rag.insert(docs_data,file_paths=citations)
-    print("documents indexed!!")
+    print("Documents indexing DONE!!")
 
-
-def display_message_part(part):
-    """
-    Display a single part of a message in the Streamlit UI.
-    Customize how you display system prompts, user prompts,
-    tool calls, tool returns, etc.
-    """
-    # user-prompt
-    if part.part_kind == 'user-prompt':
-        with st.chat_message("user"):
-            st.markdown(part.content)
-    # text
-    elif part.part_kind == 'text':
-        with st.chat_message("assistant"):
-            st.markdown(part.content)             
-
-
-
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# ~~~~~~~~~~~~~~~~~~ Main Function with UI Creation ~~~~~~~~~~~~~~~~~~~~
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 def save_docs(docs):
     
@@ -211,7 +186,7 @@ def main():
             # Properly consume the async generator with async for
             response = st.session_state.rag.query(
                         query=user_input,
-                        param=QueryParam(mode="local", top_k=3, response_type="single line"),
+                        param=QueryParam(mode="local", top_k=5),
             )
             
             # Final response without the cursor
