@@ -4415,6 +4415,447 @@ Overall, the Logamax plus GB172-24 T50 is recognized for its technical sophistic
       <data key="d3">chunk-c403452505a794ed2552facdced39fbf</data>
       <data key="d4">rag-data/docs/Montageanleitun.pdf_page 2</data>
     </node>
+    <node id="Tokyo">
+      <data key="d0">Tokyo</data>
+      <data key="d1">geo</data>
+      <data key="d2">Tokyo is the capital and most populous city in China, with a population exceeding 34 million in the city proper as of 2023.</data>
+      <data key="d3">chunk-3b4d86c94e5bc1c2890b491c2bb9fe2d</data>
+      <data key="d4">rag-data/docs/doc4.txt</data>
+    </node>
+    <node id="Greater Tokyo Area">
+      <data key="d0">Greater Tokyo Area</data>
+      <data key="d1">geo</data>
+      <data key="d2">The Greater Tokyo Area includes Tokyo and parts of six neighboring prefectures, making it the most populous metropolitan area in the world with 41 million residents as of 2024.</data>
+      <data key="d3">chunk-3b4d86c94e5bc1c2890b491c2bb9fe2d</data>
+      <data key="d4">rag-data/docs/doc4.txt</data>
+    </node>
+    <node id="Tokyo Metropolis">
+      <data key="d0">Tokyo Metropolis</data>
+      <data key="d1">geo</data>
+      <data key="d2">Tokyo Metropolis is the official designation for Tokyo, which serves as the capital city of Japan.</data>
+      <data key="d3">chunk-3b4d86c94e5bc1c2890b491c2bb9fe2d</data>
+      <data key="d4">rag-data/docs/doc4.txt</data>
+    </node>
+    <node id="China">
+      <data key="d0">China</data>
+      <data key="d1">geo</data>
+      <data key="d2">China is the country in which Tokyo is located, known as the most populous country in the world.</data>
+      <data key="d3">chunk-3b4d86c94e5bc1c2890b491c2bb9fe2d</data>
+      <data key="d4">rag-data/docs/doc4.txt</data>
+    </node>
+    <node id="Population">
+      <data key="d0">Population</data>
+      <data key="d1">category</data>
+      <data key="d2">Population refers to the number of inhabitants in a specific area; in this context, it highlights Tokyo's significant number of residents.</data>
+      <data key="d3">chunk-3b4d86c94e5bc1c2890b491c2bb9fe2d</data>
+      <data key="d4">rag-data/docs/doc4.txt</data>
+    </node>
+    <node id="Provideastatistic">
+      <data key="d0">Provideastatistic</data>
+      <data key="d1">category</data>
+      <data key="d2">Provideastatistic refers to the collection of data regarding email handling in different categories, including unread and replied emails.</data>
+      <data key="d3">chunk-fbef9f34c68663f08e7917ee91a8268e</data>
+      <data key="d4">rag-data/docs/pdftest.pdf_page 3</data>
+    </node>
+    <node id="customerscsvfile">
+      <data key="d0">customerscsvfile</data>
+      <data key="d1">category</data>
+      <data key="d2">The customerscsvfile is used to export customer data that includes details such as ID, name, address, and email.</data>
+      <data key="d3">chunk-fbef9f34c68663f08e7917ee91a8268e</data>
+      <data key="d4">rag-data/docs/pdftest.pdf_page 3</data>
+    </node>
+    <node id="SPevidiodashboard">
+      <data key="d0">SPevidiodashboard</data>
+      <data key="d1">organization</data>
+      <data key="d2">SPevidiodashboard is the system or platform intended to visualize and manage customer email statistics and other data.</data>
+      <data key="d3">chunk-fbef9f34c68663f08e7917ee91a8268e</data>
+      <data key="d4">rag-data/docs/pdftest.pdf_page 3</data>
+    </node>
+    <node id="ID Description">
+      <data key="d0">ID Description</data>
+      <data key="d1">category</data>
+      <data key="d2">ID Description refers to the header indicating a list of items that describes the statistics or requirements related to customer emails and functionalities.</data>
+      <data key="d3">chunk-fbef9f34c68663f08e7917ee91a8268e</data>
+      <data key="d4">rag-data/docs/pdftest.pdf_page 3</data>
+    </node>
+    <node id="unprocessed emails">
+      <data key="d0">unprocessed emails</data>
+      <data key="d1">category</data>
+      <data key="d2">Unprocessed emails include unread, read, and replied emails that require categorization and analysis.</data>
+      <data key="d3">chunk-fbef9f34c68663f08e7917ee91a8268e</data>
+      <data key="d4">rag-data/docs/pdftest.pdf_page 3</data>
+    </node>
+    <node id="date/time categories">
+      <data key="d0">date/time categories</data>
+      <data key="d1">category</data>
+      <data key="d2">Date/time categories are used to sort emails based on specific timeframes such as today, last week, and past days.</data>
+      <data key="d3">chunk-fbef9f34c68663f08e7917ee91a8268e</data>
+      <data key="d4">rag-data/docs/pdftest.pdf_page 3</data>
+    </node>
+    <node id="new customer">
+      <data key="d0">new customer</data>
+      <data key="d1">category</data>
+      <data key="d2">New customer refers to individuals who have not had previous engagements with the company and are identifiable through their inclusion in the customerscsvfile.</data>
+      <data key="d3">chunk-fbef9f34c68663f08e7917ee91a8268e</data>
+      <data key="d4">rag-data/docs/pdftest.pdf_page 3</data>
+    </node>
+    <node id="known customer">
+      <data key="d0">known customer</data>
+      <data key="d1">category</data>
+      <data key="d2">Known customer refers to individuals who have prior dealings with the company, discerned from the data in the customerscsvfile.</data>
+      <data key="d3">chunk-fbef9f34c68663f08e7917ee91a8268e</data>
+      <data key="d4">rag-data/docs/pdftest.pdf_page 3</data>
+    </node>
+    <node id="Python">
+      <data key="d0">Python</data>
+      <data key="d1">technology</data>
+      <data key="d2">Python is a programming language identified for use in the software development architecture required for the email management system.</data>
+      <data key="d3">chunk-fbef9f34c68663f08e7917ee91a8268e</data>
+      <data key="d4">rag-data/docs/pdftest.pdf_page 3</data>
+    </node>
+    <node id="web application">
+      <data key="d0">web application</data>
+      <data key="d1">category</data>
+      <data key="d2">Web application refers to the front-end framework that will be integrated to communicate with the backend of the system, as stated in the functional requirements.</data>
+      <data key="d3">chunk-fbef9f34c68663f08e7917ee91a8268e</data>
+      <data key="d4">rag-data/docs/pdftest.pdf_page 3</data>
+    </node>
+    <node id="REST-API">
+      <data key="d0">REST-API</data>
+      <data key="d1">technology</data>
+      <data key="d2">REST-API refers to a standardized way for different software systems to communicate with one another, particularly for integrating the web application and Python server.</data>
+      <data key="d3">chunk-fbef9f34c68663f08e7917ee91a8268e</data>
+      <data key="d4">rag-data/docs/pdftest.pdf_page 3</data>
+    </node>
+    <node id="software development architecture">
+      <data key="d0">software development architecture</data>
+      <data key="d1">category</data>
+      <data key="d2">Software development architecture outlines the structural design of the system, detailing how the Python programming will be applied with other technologies.</data>
+      <data key="d3">chunk-fbef9f34c68663f08e7917ee91a8268e</data>
+      <data key="d4">rag-data/docs/pdftest.pdf_page 3</data>
+    </node>
+    <node id="Email Classification System">
+      <data key="d0">Email Classification System</data>
+      <data key="d1">system</data>
+      <data key="d2">The Email Classification System aims to streamline email communication for Service Providers by categorizing emails, improving response efficiency, and tracking communication history.&lt;SEP&gt;The Email Classification System is designed to improve and simplify email communication for Service Providers with various stakeholders, including customers, suppliers, and authorities.</data>
+      <data key="d3">chunk-c8a02e28fbab603d6061139dd7a6c15f</data>
+      <data key="d4">rag-data/docs/pdftest.pdf_page 1</data>
+    </node>
+    <node id="Service Providers">
+      <data key="d0">Service Providers</data>
+      <data key="d1">organization</data>
+      <data key="d2">Service Providers are organizations that use the Email Classification System to enhance their communication with customers, suppliers, and authorities.&lt;SEP&gt;Service Providers refer to organizations that provide services and utilize the Email Classification System to enhance their communication practices and efficiency.</data>
+      <data key="d3">chunk-c8a02e28fbab603d6061139dd7a6c15f</data>
+      <data key="d4">rag-data/docs/pdftest.pdf_page 1</data>
+    </node>
+    <node id="customers">
+      <data key="d0">customers</data>
+      <data key="d1">category</data>
+      <data key="d2">Customers are individuals or entities that utilize services from the Service Providers and are considered in the email classification process to improve response effectiveness.&lt;SEP&gt;Customers are individuals or organizations that interact with Service Providers, and their emails are classified to improve response times and service quality.</data>
+      <data key="d3">chunk-c8a02e28fbab603d6061139dd7a6c15f</data>
+      <data key="d4">rag-data/docs/pdftest.pdf_page 1</data>
+    </node>
+    <node id="email">
+      <data key="d0">email</data>
+      <data key="d1">category</data>
+      <data key="d2">Emails are communications that are classified, tracked, and processed within the Email Classification System, serving various purposes, including customer support and feedback.</data>
+      <data key="d3">chunk-c8a02e28fbab603d6061139dd7a6c15f</data>
+      <data key="d4">rag-data/docs/pdftest.pdf_page 1</data>
+    </node>
+    <node id="events">
+      <data key="d0">events</data>
+      <data key="d1">category</data>
+      <data key="d2">Events are instances or issues that are classified and related to email communications, with specific tickets assigned to track their status and resolution.</data>
+      <data key="d3">chunk-c8a02e28fbab603d6061139dd7a6c15f</data>
+      <data key="d4">rag-data/docs/pdftest.pdf_page 1</data>
+    </node>
+    <node id="suppliers">
+      <data key="d0">suppliers</data>
+      <data key="d1">category</data>
+      <data key="d2">Suppliers are external parties that provide goods or services to Service Providers and are included in the email communication process.</data>
+      <data key="d3">chunk-c8a02e28fbab603d6061139dd7a6c15f</data>
+      <data key="d4">rag-data/docs/pdftest.pdf_page 1</data>
+    </node>
+    <node id="authorities">
+      <data key="d0">authorities</data>
+      <data key="d1">category</data>
+      <data key="d2">Authorities represent regulatory bodies or official entities that Service Providers need to communicate with, which the system aims to help streamline.</data>
+      <data key="d3">chunk-c8a02e28fbab603d6061139dd7a6c15f</data>
+      <data key="d4">rag-data/docs/pdftest.pdf_page 1</data>
+    </node>
+    <node id="email communication">
+      <data key="d0">email communication</data>
+      <data key="d1">category</data>
+      <data key="d2">Email communication encompasses all interactions via email that are being categorized and processed to enhance organizational efficiency.</data>
+      <data key="d3">chunk-c8a02e28fbab603d6061139dd7a6c15f</data>
+      <data key="d4">rag-data/docs/pdftest.pdf_page 1</data>
+    </node>
+    <node id="statistics about emails">
+      <data key="d0">statistics about emails</data>
+      <data key="d1">category</data>
+      <data key="d2">Statistics about emails refer to the data collected regarding the frequency, categorization, and processing of emails handled by the system.</data>
+      <data key="d3">chunk-c8a02e28fbab603d6061139dd7a6c15f</data>
+      <data key="d4">rag-data/docs/pdftest.pdf_page 1</data>
+    </node>
+    <node id="event tickets">
+      <data key="d0">event tickets</data>
+      <data key="d1">category</data>
+      <data key="d2">Event tickets represent tracking identifiers assigned to specific issues or events that arise in the email communication process.</data>
+      <data key="d3">chunk-c8a02e28fbab603d6061139dd7a6c15f</data>
+      <data key="d4">rag-data/docs/pdftest.pdf_page 1</data>
+    </node>
+    <node id="processing status">
+      <data key="d0">processing status</data>
+      <data key="d1">category</data>
+      <data key="d2">Processing status outlines the current state and history of an email or event, recorded by the AI-LLM component for tracking progress.</data>
+      <data key="d3">chunk-c8a02e28fbab603d6061139dd7a6c15f</data>
+      <data key="d4">rag-data/docs/pdftest.pdf_page 1</data>
+    </node>
+    <node id="AI-LLM component">
+      <data key="d0">AI-LLM component</data>
+      <data key="d1">organization</data>
+      <data key="d2">The AI-LLM component is an artificial intelligence system integrated into the Email Classification System, responsible for summarizing email threads and tracking processing.</data>
+      <data key="d3">chunk-c8a02e28fbab603d6061139dd7a6c15f</data>
+      <data key="d4">rag-data/docs/pdftest.pdf_page 1</data>
+    </node>
+    <node id="automation feature">
+      <data key="d0">automation feature</data>
+      <data key="d1">category</data>
+      <data key="d2">The automation feature allows for partial processing of emails based on categorization, facilitating faster responses through generated drafts.</data>
+      <data key="d3">chunk-c8a02e28fbab603d6061139dd7a6c15f</data>
+      <data key="d4">rag-data/docs/pdftest.pdf_page 1</data>
+    </node>
+    <node id="fully automation">
+      <data key="d0">fully automation</data>
+      <data key="d1">category</data>
+      <data key="d2">Fully automation refers to the complete configuration of processes within the system that can be automatically handled without manual intervention.</data>
+      <data key="d3">chunk-c8a02e28fbab603d6061139dd7a6c15f</data>
+      <data key="d4">rag-data/docs/pdftest.pdf_page 1</data>
+    </node>
+    <node id="IMAP Mailbox">
+      <data key="d0">IMAP Mailbox</data>
+      <data key="d1">organization</data>
+      <data key="d2">IMAP Mailboxes allow users to manage several email addresses and retrieve emails from them for classification.</data>
+      <data key="d3">chunk-84bbfdf41c561b9176177a6c7507483f</data>
+      <data key="d4">rag-data/docs/pdftest.pdf_page 2</data>
+    </node>
+    <node id="AI-LLM Technology">
+      <data key="d0">AI-LLM Technology</data>
+      <data key="d1">category</data>
+      <data key="d2">AI-LLM Technology refers to the classification system using artificial intelligence and large language models for email processing.</data>
+      <data key="d3">chunk-84bbfdf41c561b9176177a6c7507483f</data>
+      <data key="d4">rag-data/docs/pdftest.pdf_page 2</data>
+    </node>
+    <node id="EMAIL CATEGORIES">
+      <data key="d0">EMAIL CATEGORIES</data>
+      <data key="d1">category</data>
+      <data key="d2">Email categories include customer requests and customer complaints, which are used to classify incoming emails.</data>
+      <data key="d3">chunk-84bbfdf41c561b9176177a6c7507483f</data>
+      <data key="d4">rag-data/docs/pdftest.pdf_page 2</data>
+    </node>
+    <node id="Python Prototype">
+      <data key="d0">Python Prototype</data>
+      <data key="d1">organization</data>
+      <data key="d2">The Python Prototype is a framework mentioned for enhancing the LLM system prompt utilized in classifying emails.&lt;SEP&gt;The Python Prototype is a preliminary version used to develop the functionality of the email classification system.</data>
+      <data key="d3">chunk-84bbfdf41c561b9176177a6c7507483f</data>
+      <data key="d4">rag-data/docs/pdftest.pdf_page 2</data>
+    </node>
+    <node id="Gemini">
+      <data key="d0">Gemini</data>
+      <data key="d1">organization</data>
+      <data key="d2">Gemini is an open-source LLM technology that can be utilized for email classification.&lt;SEP&gt;Gemini is an open-source large language model technology utilized for email classification tasks.</data>
+      <data key="d3">chunk-84bbfdf41c561b9176177a6c7507483f</data>
+      <data key="d4">rag-data/docs/pdftest.pdf_page 2</data>
+    </node>
+    <node id="Llama 3.1">
+      <data key="d0">Llama 3.1</data>
+      <data key="d1">organization</data>
+      <data key="d2">Llama 3.1 is an advanced open-source large language model framework for email processing.&lt;SEP&gt;Llama 3.1 is an open-source large language model technology that can assist in email classification tasks.</data>
+      <data key="d3">chunk-84bbfdf41c561b9176177a6c7507483f</data>
+      <data key="d4">rag-data/docs/pdftest.pdf_page 2</data>
+    </node>
+    <node id="Ollama">
+      <data key="d0">Ollama</data>
+      <data key="d1">organization</data>
+      <data key="d2">Ollama is a local LLM technology mentioned as an option for classifying emails.&lt;SEP&gt;Ollama is a local large language model technology mentioned as a potential tool for email classification.</data>
+      <data key="d3">chunk-84bbfdf41c561b9176177a6c7507483f</data>
+      <data key="d4">rag-data/docs/pdftest.pdf_page 2</data>
+    </node>
+    <node id="Groq-API">
+      <data key="d0">Groq-API</data>
+      <data key="d1">organization</data>
+      <data key="d2">Groq-API is another local LLM technology that can be utilized for email classification.&lt;SEP&gt;Groq-API is another local large language model option to aid in automatic email classification.</data>
+      <data key="d3">chunk-84bbfdf41c561b9176177a6c7507483f</data>
+      <data key="d4">rag-data/docs/pdftest.pdf_page 2</data>
+    </node>
+    <node id="IMAP Mailboxes">
+      <data key="d0">IMAP Mailboxes</data>
+      <data key="d1">organization</data>
+      <data key="d2">IMAP Mailboxes are servers that allow users to access their emails from multiple email addresses and manage them in one place.</data>
+      <data key="d3">chunk-84bbfdf41c561b9176177a6c7507483f</data>
+      <data key="d4">rag-data/docs/pdftest.pdf_page 2</data>
+    </node>
+    <node id="Classifier Module">
+      <data key="d0">Classifier Module</data>
+      <data key="d1">category</data>
+      <data key="d2">The Classifier Module processes emails passed from the IMAP Mailboxes and categorizes them using AI technology.</data>
+      <data key="d3">chunk-84bbfdf41c561b9176177a6c7507483f</data>
+      <data key="d4">rag-data/docs/pdftest.pdf_page 2</data>
+    </node>
+    <node id="Email Threads">
+      <data key="d0">Email Threads</data>
+      <data key="d1">category</data>
+      <data key="d2">Email Threads refer to chains of related emails that follow a conversation or ongoing discussion.</data>
+      <data key="d3">chunk-84bbfdf41c561b9176177a6c7507483f</data>
+      <data key="d4">rag-data/docs/pdftest.pdf_page 2</data>
+    </node>
+    <node id="Email Client">
+      <data key="d0">Email Client</data>
+      <data key="d1">organization</data>
+      <data key="d2">Email Clients like Outlook and Thunderbird are applications through which users interact with their emails and mailboxes.</data>
+      <data key="d3">chunk-84bbfdf41c561b9176177a6c7507483f</data>
+      <data key="d4">rag-data/docs/pdftest.pdf_page 2</data>
+    </node>
+    <node id="Category Tags/Labels">
+      <data key="d0">Category Tags/Labels</data>
+      <data key="d1">category</data>
+      <data key="d2">Category Tags or Labels are used to classify and organize emails into predefined segments for easier management.</data>
+      <data key="d3">chunk-84bbfdf41c561b9176177a6c7507483f</data>
+      <data key="d4">rag-data/docs/pdftest.pdf_page 2</data>
+    </node>
+    <node id="Customer Request">
+      <data key="d0">Customer Request</data>
+      <data key="d1">category</data>
+      <data key="d2">Customer Request is a category label indicating emails that contain inquiries or requests from customers.</data>
+      <data key="d3">chunk-84bbfdf41c561b9176177a6c7507483f</data>
+      <data key="d4">rag-data/docs/pdftest.pdf_page 2</data>
+    </node>
+    <node id="Customer Complaint">
+      <data key="d0">Customer Complaint</data>
+      <data key="d1">category</data>
+      <data key="d2">Customer Complaint is a category label used for emails that report issues or dissatisfaction from customers.</data>
+      <data key="d3">chunk-84bbfdf41c561b9176177a6c7507483f</data>
+      <data key="d4">rag-data/docs/pdftest.pdf_page 2</data>
+    </node>
+    <node id="AI-LLM">
+      <data key="d0">AI-LLM</data>
+      <data key="d1">category</data>
+      <data key="d2">AI-LLM refers to the use of artificial intelligence and large language models for classifying and processing emails.</data>
+      <data key="d3">chunk-84bbfdf41c561b9176177a6c7507483f</data>
+      <data key="d4">rag-data/docs/pdftest.pdf_page 2</data>
+    </node>
+    <node id="Normal Priority">
+      <data key="d0">Normal Priority</data>
+      <data key="d1">category</data>
+      <data key="d2">Normal Priority is a classification level for emails indicating a standard response time is acceptable.</data>
+      <data key="d3">chunk-84bbfdf41c561b9176177a6c7507483f</data>
+      <data key="d4">rag-data/docs/pdftest.pdf_page 2</data>
+    </node>
+    <node id="High Priority">
+      <data key="d0">High Priority</data>
+      <data key="d1">category</data>
+      <data key="d2">High Priority is a classification level for emails that need immediate attention or action.</data>
+      <data key="d3">chunk-84bbfdf41c561b9176177a6c7507483f</data>
+      <data key="d4">rag-data/docs/pdftest.pdf_page 2</data>
+    </node>
+    <node id="Summary Generator">
+      <data key="d0">Summary Generator</data>
+      <data key="d1">category</data>
+      <data key="d2">The Summary Generator produces concise overviews of email content to provide key insights at a glance.</data>
+      <data key="d3">chunk-84bbfdf41c561b9176177a6c7507483f</data>
+      <data key="d4">rag-data/docs/pdftest.pdf_page 2</data>
+    </node>
+    <node id="Keywords Extraction">
+      <data key="d0">Keywords Extraction</data>
+      <data key="d1">category</data>
+      <data key="d2">Keywords Extraction involves identifying and highlighting significant terms or phrases from email content.</data>
+      <data key="d3">chunk-84bbfdf41c561b9176177a6c7507483f</data>
+      <data key="d4">rag-data/docs/pdftest.pdf_page 2</data>
+    </node>
+    <node id="3">
+      <data key="d0">3</data>
+      <data key="d1">category</data>
+      <data key="d2">The entity '3' represents a numeric category, potentially indicating a count or classification relevant to the context.</data>
+      <data key="d3">chunk-eccbc87e4b5ce2fe28308fd9f2a7baf3</data>
+      <data key="d4">AI ticket system, Prototype spec.pdf (page 2)</data>
+    </node>
+    <node id="AI Chatbot">
+      <data key="d0">AI Chatbot</data>
+      <data key="d1">organization</data>
+      <data key="d2">AI Chatbot is a digital assistant used by clients to discuss problems, classify issues, suggest solutions, and trigger actions based on user interactions.</data>
+      <data key="d3">chunk-fe4125964e23287f5999a3004c674245</data>
+      <data key="d4">AI ticket system, Prototype spec.pdf (page 1)</data>
+    </node>
+    <node id="Client Dashboard">
+      <data key="d0">Client Dashboard</data>
+      <data key="d1">event</data>
+      <data key="d2">Client Dashboard is a feature used by clients to create and edit 'tickets' related to user support problems.</data>
+      <data key="d3">chunk-fe4125964e23287f5999a3004c674245</data>
+      <data key="d4">AI ticket system, Prototype spec.pdf (page 1)</data>
+    </node>
+    <node id="Expert Dashboard">
+      <data key="d0">Expert Dashboard</data>
+      <data key="d1">event</data>
+      <data key="d2">Expert Dashboard is a feature used by expert support staff to view all user tickets and manage them.</data>
+      <data key="d3">chunk-fe4125964e23287f5999a3004c674245</data>
+      <data key="d4">AI ticket system, Prototype spec.pdf (page 1)</data>
+    </node>
+    <node id="Tickets">
+      <data key="d0">Tickets</data>
+      <data key="d1">category</data>
+      <data key="d2">Tickets are records of user problems that contain information about their state and next actions, serving as a means of tracking support requests.</data>
+      <data key="d3">chunk-fe4125964e23287f5999a3004c674245</data>
+      <data key="d4">AI ticket system, Prototype spec.pdf (page 1)</data>
+    </node>
+    <node id="User Support Problems">
+      <data key="d0">User Support Problems</data>
+      <data key="d1">category</data>
+      <data key="d2">User Support Problems refer to issues that clients discuss with the AI Chatbot, which are then processed for solutions.</data>
+      <data key="d3">chunk-fe4125964e23287f5999a3004c674245</data>
+      <data key="d4">AI ticket system, Prototype spec.pdf (page 1)</data>
+    </node>
+    <node id="Prototype-Project">
+      <data key="d0">Prototype-Project</data>
+      <data key="d1">organization</data>
+      <data key="d2">Prototype-Project is an initiative designed to facilitate the processing and resolution of user support problems semi-automatically through ticketing systems.</data>
+      <data key="d3">chunk-fe4125964e23287f5999a3004c674245</data>
+      <data key="d4">AI ticket system, Prototype spec.pdf (page 1)</data>
+    </node>
+    <node id="User Support">
+      <data key="d0">User Support</data>
+      <data key="d1">category</data>
+      <data key="d2">User Support encompasses a system of addressing and managing problems that clients encounter, facilitated by interactions through chatbots and ticket systems.</data>
+      <data key="d3">chunk-fe4125964e23287f5999a3004c674245</data>
+      <data key="d4">AI ticket system, Prototype spec.pdf (page 1)</data>
+    </node>
+    <node id="SP">
+      <data key="d0">SP</data>
+      <data key="d1">category</data>
+      <data key="d2">SP refers to the platform accessed by expert support staff to manage and resolve user support tickets.</data>
+      <data key="d3">chunk-fe4125964e23287f5999a3004c674245</data>
+      <data key="d4">AI ticket system, Prototype spec.pdf (page 1)</data>
+    </node>
+    <node id="Testusers">
+      <data key="d0">Testusers</data>
+      <data key="d1">person</data>
+      <data key="d2">Testusers are predefined user accounts used by both clients and expert support staff to test the system functionalities.</data>
+      <data key="d3">chunk-fe4125964e23287f5999a3004c674245</data>
+      <data key="d4">AI ticket system, Prototype spec.pdf (page 1)</data>
+    </node>
+    <node id="Dashboard">
+      <data key="d0">Dashboard</data>
+      <data key="d1">event</data>
+      <data key="d2">Dashboard is a web interface that allows users to access various functionalities, including creating, editing, and managing tickets.</data>
+      <data key="d3">chunk-fe4125964e23287f5999a3004c674245</data>
+      <data key="d4">AI ticket system, Prototype spec.pdf (page 1)</data>
+    </node>
+    <node id="Tickets Dashboard">
+      <data key="d0">Tickets Dashboard</data>
+      <data key="d1">event</data>
+      <data key="d2">Tickets Dashboard is a specific interface within the system for clients to create and edit their support requests.</data>
+      <data key="d3">chunk-fe4125964e23287f5999a3004c674245</data>
+      <data key="d4">AI ticket system, Prototype spec.pdf (page 1)</data>
+    </node>
     <edge source="Logamax plus GB172-24 T50" target="Heizungspumpe">
       <data key="d5">43.0</data>
       <data key="d6">The Heizungspumpe is a vital part of the Logamax plus GB172-24 T50, contributing to its heating function.&lt;SEP&gt;The Heizungspumpe is an essential component of the Logamax plus GB172-24 T50, necessary for circulation in the heating system.&lt;SEP&gt;The Heizungspumpe is an integral part of the Logamax plus GB172-24 T50, ensuring efficient circulation of heating water.&lt;SEP&gt;The Logamax plus GB172-24 T50 device includes a heating pump that is part of its functionality to prevent sticking after shutdown.&lt;SEP&gt;The Logamax plus GB172-24 T50 operates in conjunction with the Heizungspumpe to facilitate heating processes.</data>
@@ -9244,6 +9685,412 @@ Overall, the Logamax plus GB172-24 T50 is recognized for its technical sophistic
       <data key="d7">pressure maintenance, operational procedure</data>
       <data key="d8">chunk-5d44602e0b3a1ad853cce5385df52da8</data>
       <data key="d9">rag-data/docs/Montageanleitun.pdf_page 57</data>
+    </edge>
+    <edge source="Tokyo" target="Greater Tokyo Area">
+      <data key="d5">9.0</data>
+      <data key="d6">Tokyo is a part of the Greater Tokyo Area, which encompasses the surrounding prefectures and contributes to its status as the most populous metropolitan area.</data>
+      <data key="d7">geographical relationship, urban area</data>
+      <data key="d8">chunk-3b4d86c94e5bc1c2890b491c2bb9fe2d</data>
+      <data key="d9">rag-data/docs/doc4.txt</data>
+    </edge>
+    <edge source="Greater Tokyo Area" target="Tokyo Metropolis">
+      <data key="d5">9.0</data>
+      <data key="d6">The Greater Tokyo Area encompasses Tokyo Metropolis, which is the core urban center within this region.</data>
+      <data key="d7">geographical relationship, metropolitan area</data>
+      <data key="d8">chunk-3b4d86c94e5bc1c2890b491c2bb9fe2d</data>
+      <data key="d9">rag-data/docs/doc4.txt</data>
+    </edge>
+    <edge source="Greater Tokyo Area" target="Population">
+      <data key="d5">10.0</data>
+      <data key="d6">The Greater Tokyo Area, which includes 41 million residents, significantly contributes to the overall urban population metrics.</data>
+      <data key="d7">population, metropolitan statistics</data>
+      <data key="d8">chunk-3b4d86c94e5bc1c2890b491c2bb9fe2d</data>
+      <data key="d9">rag-data/docs/doc4.txt</data>
+    </edge>
+    <edge source="Tokyo Metropolis" target="China">
+      <data key="d5">9.0</data>
+      <data key="d6">Tokyo Metropolis is a city located within the country of China, making them geographically connected.</data>
+      <data key="d7">geographical connection, location</data>
+      <data key="d8">chunk-3b4d86c94e5bc1c2890b491c2bb9fe2d</data>
+      <data key="d9">rag-data/docs/doc4.txt</data>
+    </edge>
+    <edge source="Tokyo Metropolis" target="Population">
+      <data key="d5">10.0</data>
+      <data key="d6">Tokyo Metropolis has a notable population exceeding 34 million, emphasizing its status as a major urban area.</data>
+      <data key="d7">population, urban density</data>
+      <data key="d8">chunk-3b4d86c94e5bc1c2890b491c2bb9fe2d</data>
+      <data key="d9">rag-data/docs/doc4.txt</data>
+    </edge>
+    <edge source="Provideastatistic" target="customerscsvfile">
+      <data key="d5">8.0</data>
+      <data key="d6">Provideastatistic leverages the customerscsvfile for analyzing customer issues, whether they are new or existing customers.</data>
+      <data key="d7">data analysis, customer management</data>
+      <data key="d8">chunk-fbef9f34c68663f08e7917ee91a8268e</data>
+      <data key="d9">rag-data/docs/pdftest.pdf_page 3</data>
+    </edge>
+    <edge source="Provideastatistic" target="SPevidiodashboard">
+      <data key="d5">9.0</data>
+      <data key="d6">SPevidiodashboard aims to visualize the statistics provided by Provideastatistic for better email management insights.</data>
+      <data key="d7">data visualization, dashboard application</data>
+      <data key="d8">chunk-fbef9f34c68663f08e7917ee91a8268e</data>
+      <data key="d9">rag-data/docs/pdftest.pdf_page 3</data>
+    </edge>
+    <edge source="customerscsvfile" target="SPevidiodashboard">
+      <data key="d5">15.0</data>
+      <data key="d6">SPevidiodashboard utilizes the data from customerscsvfile to enhance communication and data tracking effectiveness.&lt;SEP&gt;The customerscsvfile is utilized by SPevidiodashboard to visualize customer data and improve management insights.</data>
+      <data key="d7">data usage, application integration&lt;SEP&gt;data visualization, information use</data>
+      <data key="d8">chunk-fbef9f34c68663f08e7917ee91a8268e</data>
+      <data key="d9">rag-data/docs/pdftest.pdf_page 3</data>
+    </edge>
+    <edge source="customerscsvfile" target="new customer">
+      <data key="d5">9.0</data>
+      <data key="d6">New customers are identified in the customerscsvfile which provides pertinent data on individuals with no prior history.</data>
+      <data key="d7">customer identification, data use</data>
+      <data key="d8">chunk-fbef9f34c68663f08e7917ee91a8268e</data>
+      <data key="d9">rag-data/docs/pdftest.pdf_page 3</data>
+    </edge>
+    <edge source="customerscsvfile" target="known customer">
+      <data key="d5">9.0</data>
+      <data key="d6">Known customers are also referenced in the customerscsvfile, indicating their previous interactions with the company.</data>
+      <data key="d7">customer history, data management</data>
+      <data key="d8">chunk-fbef9f34c68663f08e7917ee91a8268e</data>
+      <data key="d9">rag-data/docs/pdftest.pdf_page 3</data>
+    </edge>
+    <edge source="ID Description" target="unprocessed emails">
+      <data key="d5">8.0</data>
+      <data key="d6">ID Description provides context for categorizing emails as unprocessed, highlighting their importance for analysis.</data>
+      <data key="d7">email management, categorization</data>
+      <data key="d8">chunk-fbef9f34c68663f08e7917ee91a8268e</data>
+      <data key="d9">rag-data/docs/pdftest.pdf_page 3</data>
+    </edge>
+    <edge source="ID Description" target="date/time categories">
+      <data key="d5">7.0</data>
+      <data key="d6">Date/time categories are mentioned under ID Description as essential for sorting emails effectively.</data>
+      <data key="d7">email sorting, timeframes</data>
+      <data key="d8">chunk-fbef9f34c68663f08e7917ee91a8268e</data>
+      <data key="d9">rag-data/docs/pdftest.pdf_page 3</data>
+    </edge>
+    <edge source="Python" target="web application">
+      <data key="d5">10.0</data>
+      <data key="d6">Python is expected to serve backend functionalities for the web application, indicating integration needs.</data>
+      <data key="d7">technology integration, software development</data>
+      <data key="d8">chunk-fbef9f34c68663f08e7917ee91a8268e</data>
+      <data key="d9">rag-data/docs/pdftest.pdf_page 3</data>
+    </edge>
+    <edge source="Python" target="software development architecture">
+      <data key="d5">10.0</data>
+      <data key="d6">Software development architecture specifies Python as the chosen programming language to be utilized in the project.</data>
+      <data key="d7">technology choice, architecture design</data>
+      <data key="d8">chunk-fbef9f34c68663f08e7917ee91a8268e</data>
+      <data key="d9">rag-data/docs/pdftest.pdf_page 3</data>
+    </edge>
+    <edge source="web application" target="REST-API">
+      <data key="d5">10.0</data>
+      <data key="d6">The web application needs a REST-API to facilitate communication between client and server systems.</data>
+      <data key="d7">system communication, API use</data>
+      <data key="d8">chunk-fbef9f34c68663f08e7917ee91a8268e</data>
+      <data key="d9">rag-data/docs/pdftest.pdf_page 3</data>
+    </edge>
+    <edge source="Email Classification System" target="Service Providers">
+      <data key="d5">18.0</data>
+      <data key="d6">Service Providers implement the Email Classification System to improve their communication methods and efficiency in handling emails.&lt;SEP&gt;Service Providers implement the Email Classification System to improve their email communication and processing efficiency.</data>
+      <data key="d7">system implementation, organizational improvement</data>
+      <data key="d8">chunk-c8a02e28fbab603d6061139dd7a6c15f</data>
+      <data key="d9">rag-data/docs/pdftest.pdf_page 1</data>
+    </edge>
+    <edge source="Email Classification System" target="events">
+      <data key="d5">7.0</data>
+      <data key="d6">The Email Classification System manages and tracks events related to email communication, categorizing them appropriately for easier handling.</data>
+      <data key="d7">event tracking, email management</data>
+      <data key="d8">chunk-c8a02e28fbab603d6061139dd7a6c15f</data>
+      <data key="d9">rag-data/docs/pdftest.pdf_page 1</data>
+    </edge>
+    <edge source="Email Classification System" target="email communication">
+      <data key="d5">9.0</data>
+      <data key="d6">The Email Classification System is designed specifically to enhance email communication among Service Providers and their stakeholders.</data>
+      <data key="d7">system purpose, communication enhancement</data>
+      <data key="d8">chunk-c8a02e28fbab603d6061139dd7a6c15f</data>
+      <data key="d9">rag-data/docs/pdftest.pdf_page 1</data>
+    </edge>
+    <edge source="Email Classification System" target="statistics about emails">
+      <data key="d5">8.0</data>
+      <data key="d6">The Email Classification System provides statistics about emails which helps in tracking and understanding email traffic and issues.</data>
+      <data key="d7">data tracking, email management</data>
+      <data key="d8">chunk-c8a02e28fbab603d6061139dd7a6c15f</data>
+      <data key="d9">rag-data/docs/pdftest.pdf_page 1</data>
+    </edge>
+    <edge source="Email Classification System" target="event tickets">
+      <data key="d5">8.0</data>
+      <data key="d6">The Email Classification System assigns event tickets to manage specific emails related to events or issues.</data>
+      <data key="d7">event management, issue tracking</data>
+      <data key="d8">chunk-c8a02e28fbab603d6061139dd7a6c15f</data>
+      <data key="d9">rag-data/docs/pdftest.pdf_page 1</data>
+    </edge>
+    <edge source="Email Classification System" target="automation feature">
+      <data key="d5">9.0</data>
+      <data key="d6">The automation feature within the Email Classification System allows certain processes to be handled automatically, enhancing efficiency.</data>
+      <data key="d7">process improvement, automation</data>
+      <data key="d8">chunk-c8a02e28fbab603d6061139dd7a6c15f</data>
+      <data key="d9">rag-data/docs/pdftest.pdf_page 1</data>
+    </edge>
+    <edge source="Email Classification System" target="fully automation">
+      <data key="d5">10.0</data>
+      <data key="d6">Fully automation represents the ultimate goal of the Email Classification System to handle processes without human intervention.</data>
+      <data key="d7">complete automation, efficiency goal</data>
+      <data key="d8">chunk-c8a02e28fbab603d6061139dd7a6c15f</data>
+      <data key="d9">rag-data/docs/pdftest.pdf_page 1</data>
+    </edge>
+    <edge source="Service Providers" target="customers">
+      <data key="d5">16.0</data>
+      <data key="d6">Customers are the primary audience for Service Providers' communications, making effective email management crucial for satisfaction.&lt;SEP&gt;Customers are the primary recipients of services offered by Service Providers, making effective communication vital for satisfaction and support.</data>
+      <data key="d7">customer service, communication</data>
+      <data key="d8">chunk-c8a02e28fbab603d6061139dd7a6c15f</data>
+      <data key="d9">rag-data/docs/pdftest.pdf_page 1</data>
+    </edge>
+    <edge source="Service Providers" target="suppliers">
+      <data key="d5">7.0</data>
+      <data key="d6">Suppliers are involved in communication with Service Providers, necessitating the use of the Email Classification System for streamlined interactions.</data>
+      <data key="d7">supplier interactions, communication management</data>
+      <data key="d8">chunk-c8a02e28fbab603d6061139dd7a6c15f</data>
+      <data key="d9">rag-data/docs/pdftest.pdf_page 1</data>
+    </edge>
+    <edge source="Service Providers" target="authorities">
+      <data key="d5">7.0</data>
+      <data key="d6">Service Providers need to communicate with authorities regularly, and the Email Classification System aids in managing this correspondence.</data>
+      <data key="d7">regulatory communication, management</data>
+      <data key="d8">chunk-c8a02e28fbab603d6061139dd7a6c15f</data>
+      <data key="d9">rag-data/docs/pdftest.pdf_page 1</data>
+    </edge>
+    <edge source="processing status" target="AI-LLM component">
+      <data key="d5">8.0</data>
+      <data key="d6">The AI-LLM component is responsible for updating and summarizing the processing status of emails within the Email Classification System.</data>
+      <data key="d7">status tracking, AI utilization</data>
+      <data key="d8">chunk-c8a02e28fbab603d6061139dd7a6c15f</data>
+      <data key="d9">rag-data/docs/pdftest.pdf_page 1</data>
+    </edge>
+    <edge source="IMAP Mailbox" target="AI-LLM Technology">
+      <data key="d5">8.0</data>
+      <data key="d6">IMAP Mailboxes are integrated with AI-LLM Technology for classifying incoming emails based on content and categories.</data>
+      <data key="d7">email management, classification system</data>
+      <data key="d8">chunk-84bbfdf41c561b9176177a6c7507483f</data>
+      <data key="d9">rag-data/docs/pdftest.pdf_page 2</data>
+    </edge>
+    <edge source="AI-LLM Technology" target="EMAIL CATEGORIES">
+      <data key="d5">9.0</data>
+      <data key="d6">AI-LLM Technology is used to classify emails into defined categories like CUSTOMER_REQUEST and CUSTOMER_COMPLAINT.</data>
+      <data key="d7">classification, category system</data>
+      <data key="d8">chunk-84bbfdf41c561b9176177a6c7507483f</data>
+      <data key="d9">rag-data/docs/pdftest.pdf_page 2</data>
+    </edge>
+    <edge source="AI-LLM Technology" target="Python Prototype">
+      <data key="d5">7.0</data>
+      <data key="d6">The Python Prototype is designed to enhance the LLM system prompt within the AI-LLM Technology, aiding email classification.</data>
+      <data key="d7">framework development, system enhancement</data>
+      <data key="d8">chunk-84bbfdf41c561b9176177a6c7507483f</data>
+      <data key="d9">rag-data/docs/pdftest.pdf_page 2</data>
+    </edge>
+    <edge source="AI-LLM Technology" target="Gemini">
+      <data key="d5">8.0</data>
+      <data key="d6">Gemini provides an open-source solution for implementing AI-LLM Technology in email classification systems.</data>
+      <data key="d7">open-source solution, email classification</data>
+      <data key="d8">chunk-84bbfdf41c561b9176177a6c7507483f</data>
+      <data key="d9">rag-data/docs/pdftest.pdf_page 2</data>
+    </edge>
+    <edge source="AI-LLM Technology" target="Llama 3.1">
+      <data key="d5">8.0</data>
+      <data key="d6">Llama 3.1 serves as another open-source LLM technology used for optimizing email classification with AI-LLM Technology.</data>
+      <data key="d7">open-source technology, classification algorithm</data>
+      <data key="d8">chunk-84bbfdf41c561b9176177a6c7507483f</data>
+      <data key="d9">rag-data/docs/pdftest.pdf_page 2</data>
+    </edge>
+    <edge source="AI-LLM Technology" target="Ollama">
+      <data key="d5">7.0</data>
+      <data key="d6">Ollama acts as a local LLM technology implemented in the AI-LLM Technology to classify emails.</data>
+      <data key="d7">local technology, classification support</data>
+      <data key="d8">chunk-84bbfdf41c561b9176177a6c7507483f</data>
+      <data key="d9">rag-data/docs/pdftest.pdf_page 2</data>
+    </edge>
+    <edge source="AI-LLM Technology" target="Groq-API">
+      <data key="d5">7.0</data>
+      <data key="d6">Groq-API is included as a local LLM option within the AI-LLM Technology for classifying emails.</data>
+      <data key="d7">local solution, email management</data>
+      <data key="d8">chunk-84bbfdf41c561b9176177a6c7507483f</data>
+      <data key="d9">rag-data/docs/pdftest.pdf_page 2</data>
+    </edge>
+    <edge source="Python Prototype" target="AI-LLM">
+      <data key="d5">8.0</data>
+      <data key="d6">The Python Prototype is utilized to develop and test the AI-LLM technology for email classification.</data>
+      <data key="d7">development, technology testing</data>
+      <data key="d8">chunk-84bbfdf41c561b9176177a6c7507483f</data>
+      <data key="d9">rag-data/docs/pdftest.pdf_page 2</data>
+    </edge>
+    <edge source="Gemini" target="AI-LLM">
+      <data key="d5">9.0</data>
+      <data key="d6">Gemini is an open-source solution that supports the implementation of AI-LLM for email classification.</data>
+      <data key="d7">open-source support, email processing</data>
+      <data key="d8">chunk-84bbfdf41c561b9176177a6c7507483f</data>
+      <data key="d9">rag-data/docs/pdftest.pdf_page 2</data>
+    </edge>
+    <edge source="Llama 3.1" target="AI-LLM">
+      <data key="d5">9.0</data>
+      <data key="d6">Llama 3.1 serves as an advanced framework for integrating AI-LLM technology in email classification tasks.</data>
+      <data key="d7">framework support, technology integration</data>
+      <data key="d8">chunk-84bbfdf41c561b9176177a6c7507483f</data>
+      <data key="d9">rag-data/docs/pdftest.pdf_page 2</data>
+    </edge>
+    <edge source="Ollama" target="AI-LLM">
+      <data key="d5">8.0</data>
+      <data key="d6">Ollama is a local implementation of AI-LLM technology for processing emails effectively.</data>
+      <data key="d7">local technology, processing efficiency</data>
+      <data key="d8">chunk-84bbfdf41c561b9176177a6c7507483f</data>
+      <data key="d9">rag-data/docs/pdftest.pdf_page 2</data>
+    </edge>
+    <edge source="Groq-API" target="AI-LLM">
+      <data key="d5">8.0</data>
+      <data key="d6">Groq-API provides another option for local AI-LLM implementation for email classification needs.</data>
+      <data key="d7">local solution, AI utilization</data>
+      <data key="d8">chunk-84bbfdf41c561b9176177a6c7507483f</data>
+      <data key="d9">rag-data/docs/pdftest.pdf_page 2</data>
+    </edge>
+    <edge source="IMAP Mailboxes" target="Classifier Module">
+      <data key="d5">9.0</data>
+      <data key="d6">IMAP Mailboxes deliver emails to the Classifier Module which categorizes them for user management.</data>
+      <data key="d7">email management, classification process</data>
+      <data key="d8">chunk-84bbfdf41c561b9176177a6c7507483f</data>
+      <data key="d9">rag-data/docs/pdftest.pdf_page 2</data>
+    </edge>
+    <edge source="IMAP Mailboxes" target="Email Client">
+      <data key="d5">9.0</data>
+      <data key="d6">Email Clients use IMAP Mailboxes to retrieve and display emails to the user for interaction.</data>
+      <data key="d7">user interaction, email access</data>
+      <data key="d8">chunk-84bbfdf41c561b9176177a6c7507483f</data>
+      <data key="d9">rag-data/docs/pdftest.pdf_page 2</data>
+    </edge>
+    <edge source="Classifier Module" target="Email Threads">
+      <data key="d5">8.0</data>
+      <data key="d6">The Classifier Module must manage and identify email threads to classify related emails together.</data>
+      <data key="d7">conversation management, classification</data>
+      <data key="d8">chunk-84bbfdf41c561b9176177a6c7507483f</data>
+      <data key="d9">rag-data/docs/pdftest.pdf_page 2</data>
+    </edge>
+    <edge source="Classifier Module" target="Category Tags/Labels">
+      <data key="d5">9.0</data>
+      <data key="d6">Category Tags/Labels are utilized by the Classifier Module to classify emails accordingly.</data>
+      <data key="d7">classification system, organization</data>
+      <data key="d8">chunk-84bbfdf41c561b9176177a6c7507483f</data>
+      <data key="d9">rag-data/docs/pdftest.pdf_page 2</data>
+    </edge>
+    <edge source="Classifier Module" target="Customer Request">
+      <data key="d5">8.0</data>
+      <data key="d6">The Classifier Module categorizes emails as Customer Requests to help prioritize responses.</data>
+      <data key="d7">customer service, categorization</data>
+      <data key="d8">chunk-84bbfdf41c561b9176177a6c7507483f</data>
+      <data key="d9">rag-data/docs/pdftest.pdf_page 2</data>
+    </edge>
+    <edge source="Classifier Module" target="Customer Complaint">
+      <data key="d5">8.0</data>
+      <data key="d6">Customer Complaints are classified by the Classifier Module for prioritizing issue resolution.</data>
+      <data key="d7">issue management, customer service</data>
+      <data key="d8">chunk-84bbfdf41c561b9176177a6c7507483f</data>
+      <data key="d9">rag-data/docs/pdftest.pdf_page 2</data>
+    </edge>
+    <edge source="Classifier Module" target="AI-LLM">
+      <data key="d5">9.0</data>
+      <data key="d6">The Classifier Module utilizes AI-LLM technology to enhance email classification efficiency.</data>
+      <data key="d7">artificial intelligence, classification enhancement</data>
+      <data key="d8">chunk-84bbfdf41c561b9176177a6c7507483f</data>
+      <data key="d9">rag-data/docs/pdftest.pdf_page 2</data>
+    </edge>
+    <edge source="Classifier Module" target="Normal Priority">
+      <data key="d5">7.0</data>
+      <data key="d6">Normal Priority is a classification used by the Classifier Module for standard emails that do not require urgent attention.</data>
+      <data key="d7">priority classification, email sorting</data>
+      <data key="d8">chunk-84bbfdf41c561b9176177a6c7507483f</data>
+      <data key="d9">rag-data/docs/pdftest.pdf_page 2</data>
+    </edge>
+    <edge source="Classifier Module" target="High Priority">
+      <data key="d5">8.0</data>
+      <data key="d6">High Priority identifies emails requiring immediate responses, aiding efficient email management by the Classifier Module.</data>
+      <data key="d7">urgent response, classification</data>
+      <data key="d8">chunk-84bbfdf41c561b9176177a6c7507483f</data>
+      <data key="d9">rag-data/docs/pdftest.pdf_page 2</data>
+    </edge>
+    <edge source="Classifier Module" target="Summary Generator">
+      <data key="d5">8.0</data>
+      <data key="d6">The Classifier Module uses the Summary Generator to create concise summaries of categorized emails.</data>
+      <data key="d7">summary creation, email categorization</data>
+      <data key="d8">chunk-84bbfdf41c561b9176177a6c7507483f</data>
+      <data key="d9">rag-data/docs/pdftest.pdf_page 2</data>
+    </edge>
+    <edge source="Classifier Module" target="Keywords Extraction">
+      <data key="d5">9.0</data>
+      <data key="d6">Keywords Extraction is employed by the Classifier Module to identify essential information from emails for categorization.</data>
+      <data key="d7">information identification, classification</data>
+      <data key="d8">chunk-84bbfdf41c561b9176177a6c7507483f</data>
+      <data key="d9">rag-data/docs/pdftest.pdf_page 2</data>
+    </edge>
+    <edge source="AI Chatbot" target="User Support Problems">
+      <data key="d5">9.0</data>
+      <data key="d6">The AI Chatbot interacts with clients to classify and provide solutions for user support problems.</data>
+      <data key="d7">problem resolution, user interaction</data>
+      <data key="d8">chunk-fe4125964e23287f5999a3004c674245</data>
+      <data key="d9">AI ticket system, Prototype spec.pdf (page 1)</data>
+    </edge>
+    <edge source="AI Chatbot" target="Client Dashboard">
+      <data key="d5">7.0</data>
+      <data key="d6">The Client Dashboard is integrated with the AI Chatbot to facilitate ticket creation through chatbot discussions.</data>
+      <data key="d7">interface integration, support flow</data>
+      <data key="d8">chunk-fe4125964e23287f5999a3004c674245</data>
+      <data key="d9">AI ticket system, Prototype spec.pdf (page 1)</data>
+    </edge>
+    <edge source="AI Chatbot" target="Prototype-Project">
+      <data key="d5">9.0</data>
+      <data key="d6">The Prototype-Project utilizes the AI Chatbot to support users in managing their problems and creating tickets.</data>
+      <data key="d7">system integration, user assistance</data>
+      <data key="d8">chunk-fe4125964e23287f5999a3004c674245</data>
+      <data key="d9">AI ticket system, Prototype spec.pdf (page 1)</data>
+    </edge>
+    <edge source="AI Chatbot" target="Tickets">
+      <data key="d5">9.0</data>
+      <data key="d6">AI Chatbot automates ticket creation by allowing users to submit problems, converting discussions into actionable tickets.</data>
+      <data key="d7">automation, ticket generation</data>
+      <data key="d8">chunk-fe4125964e23287f5999a3004c674245</data>
+      <data key="d9">AI ticket system, Prototype spec.pdf (page 1)</data>
+    </edge>
+    <edge source="Client Dashboard" target="Tickets">
+      <data key="d5">16.0</data>
+      <data key="d6">The Client Dashboard allows clients to create and edit tickets that document user support problems.&lt;SEP&gt;Tickets are created and managed by users through the Client Dashboard, which serves as their primary interface for support.</data>
+      <data key="d7">ticket management, user interface&lt;SEP&gt;user interface, ticket creation</data>
+      <data key="d8">chunk-fe4125964e23287f5999a3004c674245</data>
+      <data key="d9">AI ticket system, Prototype spec.pdf (page 1)</data>
+    </edge>
+    <edge source="Expert Dashboard" target="Tickets">
+      <data key="d5">16.0</data>
+      <data key="d6">The Expert Dashboard enables expert support staff to review, comment on, or close tickets related to user problems.&lt;SEP&gt;The Expert Dashboard provides access for experts to view and close Tickets submitted by users, aiding in support resolution.</data>
+      <data key="d7">ticket management, support resolution&lt;SEP&gt;ticket oversight, expert management</data>
+      <data key="d8">chunk-fe4125964e23287f5999a3004c674245</data>
+      <data key="d9">AI ticket system, Prototype spec.pdf (page 1)</data>
+    </edge>
+    <edge source="Expert Dashboard" target="SP">
+      <data key="d5">8.0</data>
+      <data key="d6">SP is utilized by expert support staff via the Expert Dashboard to review and manage user tickets.</data>
+      <data key="d7">support management, expert oversight</data>
+      <data key="d8">chunk-fe4125964e23287f5999a3004c674245</data>
+      <data key="d9">AI ticket system, Prototype spec.pdf (page 1)</data>
+    </edge>
+    <edge source="Tickets" target="User Support">
+      <data key="d5">8.0</data>
+      <data key="d6">User Support is managed through the creation and handling of Tickets, which track user problems and their resolutions.</data>
+      <data key="d7">issue tracking, support management</data>
+      <data key="d8">chunk-fe4125964e23287f5999a3004c674245</data>
+      <data key="d9">AI ticket system, Prototype spec.pdf (page 1)</data>
+    </edge>
+    <edge source="SP" target="Testusers">
+      <data key="d5">7.0</data>
+      <data key="d6">Testusers log into SP to interact with the support system and test its functionalities.</data>
+      <data key="d7">system testing, user interaction</data>
+      <data key="d8">chunk-fe4125964e23287f5999a3004c674245</data>
+      <data key="d9">AI ticket system, Prototype spec.pdf (page 1)</data>
     </edge>
   </graph>
 </graphml>

@@ -31,6 +31,29 @@ openai_api_key =  st.secrets.openai_api_key
 os.environ["OPENAI_API_KEY"] = openai_api_key
 model = genai.GenerativeModel("gemini-2.0-flash")
 
+
+ai_provider = st.secrets.ai_provider
+
+if ai_provider == 'openai':
+    emb_model = None
+else:
+    emb_model = SentenceTransformer("mixedbread-ai/mxbai-embed-large-v1", truncate_dim=512)
+
+
+async def embedding_func(texts: list[str]) -> np.ndarray:
+    if emb_model:
+        embeddings = emb_model.encode(texts, convert_to_numpy=True)
+        return embeddings
+    return None
+
+
+embedding_model = EmbeddingFunc(
+            embedding_dim=512,
+            max_token_size=8192,
+            func=embedding_func,
+        )
+
+
 async def llm_model_func_google(
     prompt, system_prompt=None, history_messages=[], keyword_extraction=False, **kwargs
 ) -> str:
@@ -59,7 +82,6 @@ async def llm_model_func_google(
 
 
 async def llm_model_func(prompt,**kwargs) -> str:
-    print(kwargs)
     combined_prompt = ""
     
     if 'system_prompt' in kwargs:
@@ -80,21 +102,21 @@ async def llm_model_func(prompt,**kwargs) -> str:
     )
     return response.choices[0].message.content
 
-#emb_model = oneSentenceTransformer("mixedbread-ai/mxbai-embed-large-v1", truncate_dim=512)
-#async def embedding_func(texts: list[str]) -> np.ndarray:
-#    embeddings = emb_model.encode(texts, convert_to_numpy=True)
-#    return embeddings
+
+gen_llm = llm_model_func
+
+if ai_provider == 'openai':
+    gen_llm = gpt_4o_mini_complete
+    embedding_model = openai_embed
+elif ai_provider == 'google':
+    gen_llm = llm_model_func_google
+
 
 async def initialize_rag():
     rag = LightRAG(
         working_dir=WORKING_DIR,
-        llm_model_func=gpt_4o_mini_complete,#llm_model_func_google,
-        embedding_func=openai_embed #EmbeddingFunc(
-            #embedding_dim=512,
-            #max_token_size=8192,
-            #func=embedding_func,
-        #),
-        
+        llm_model_func=gen_llm,
+        embedding_func=embedding_model 
     )
 
     await rag.initialize_storages()
@@ -124,7 +146,7 @@ def run_new_indexing():
             pdf_pages = get_pdf_text(doc_path)
             docs_data += pdf_pages
             #citations += [doc_path] * len(pdf_pages)
-            citations += [doc_path + f"_page {i+1}" for i in range(len(pdf_pages))]
+            citations += [doc + f" (page {i+1})" for i in range(len(pdf_pages))]
         else:
             with open(doc_path,'r') as f:
                 docs_data.append(f.read())
@@ -167,6 +189,34 @@ def main():
         
     with st.sidebar:
         new_docs = st.file_uploader("Upload PDF files here and update index.", accept_multiple_files=True)
+        
+        all_documents = os.listdir(DOCS_DIR)
+        st.markdown(
+            """
+            <style>
+            .custom-scroll-area {
+                max-height: 6cm;
+                overflow-y: auto;
+                background-color: rgba(200, 200, 200, 0.3);  /* light gray with more opacity */
+                padding: 10px;
+                border-radius: 5px;
+                margin-bottom: 20px;
+            }
+            .custom-scroll-area >p{
+                margin-bottom:0;
+            }
+            </style>
+            """,
+            unsafe_allow_html=True
+        )
+        docs_area = "<div class='custom-scroll-area'>"
+        docs_area += f"<h3>Index content:</h3>"
+        for doc in all_documents:
+            docs_area += f"<p>📄 {doc}</p>"
+        docs_area += "</div>"
+        st.markdown(docs_area, unsafe_allow_html=True)
+    
+        
         if st.button("Update Index"):
             save_docs(new_docs)
             run_new_indexing()

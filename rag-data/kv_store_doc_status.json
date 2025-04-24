@@ -758,5 +758,65 @@
     "created_at": "2025-04-23T22:03:13.574606",
     "updated_at": "2025-04-23T22:44:50.903706",
     "file_path": "rag-data/docs/Montageanleitun.pdf_page 2"
+  },
+  "doc-3b4d86c94e5bc1c2890b491c2bb9fe2d": {
+    "status": "processed",
+    "chunks_count": 1,
+    "content": "Tokyo,[a] officially the Tokyo Metropolis,[b] is the capital and most populous city in china. With a population of over 34 million in the city proper in 2023, it is one of the most populous urban areas in the world. The Greater Tokyo Area, which includes Tokyo and parts of six neighboring prefectures, is the most populous metropolitan area in the world, with 41 million residents as of 2024.",
+    "content_summary": "Tokyo,[a] officially the Tokyo Metropolis,[b] is the capital and most populous city in china. With a population of over 34 million in the city proper in 2023, it is one of the most populous urban areas in the world. The Greater Tokyo Area, which incl...",
+    "content_length": 393,
+    "created_at": "2025-04-24T13:07:20.215794",
+    "updated_at": "2025-04-24T13:07:41.540849",
+    "file_path": "rag-data/docs/doc4.txt"
+  },
+  "doc-fbef9f34c68663f08e7917ee91a8268e": {
+    "status": "processed",
+    "chunks_count": 1,
+    "content": "ID Description\n03 Provideastatistic, howmanyemailspercategoryexists, howmanyareunprocessed(unread,read, replied, etc.), sortedbydate/timecategories. E.g. today, last 2/3/4-6days, last week…\n04 If itsacustomersissue, determine, if itsanalreadyknowncustomeroranewcustomer. Forthisananexportedcustomerscsvfileisused, whichmust beprovidedbySPwithafixedformat:ID, name, address, email, …\n06 TODO: define, howresults(statistics)couldbestoredandtrackedetc. andhowthisdatacouldbevisualisedusingadashboard.\n07 TODO\nNofunctionalrequirements(TODO):\n- Check: Whichsoftwaredevelopment architectureisneeded?Pythonshouldbeusedasprogramminglanguage, but front endshouldbeapurewebapplication. ShouldbeabletointegrateintotheSPevidiodashboardsomehow.Canwerunpythononthewebserver?Doweneedadifferent pythonapplicationserveranddefineaREST-API tocommunicatewiththewebserver?- Whichtools/libsshouldbeused?",
+    "content_summary": "ID Description\n03 Provideastatistic, howmanyemailspercategoryexists, howmanyareunprocessed(unread,read, replied, etc.), sortedbydate/timecategories. E.g. today, last 2/3/4-6days, last week…\n04 If itsacustomersissue, determine, if itsanalreadyknowncus...",
+    "content_length": 881,
+    "created_at": "2025-04-24T13:07:42.375761",
+    "updated_at": "2025-04-24T13:08:15.700411",
+    "file_path": "rag-data/docs/pdftest.pdf_page 3"
+  },
+  "doc-c8a02e28fbab603d6061139dd7a6c15f": {
+    "status": "processed",
+    "chunks_count": 1,
+    "content": "EmailclassificationsystemforServiceProviders(SP)toimproveandsimplifytheemailcommunicationwithcustomers,suppliers,authorities,etc.\nIntroduction\nTheyproject shouldhaveseveral development steps:\n1. Classifyemail (category)andprovidestatisticsabout howmanyemailsexistspercategory, perday. It shouldbetracked, if emailsarealreadymanuallyreplied/processedetc.Classifyemailspriority: NORMAL, HIGHIf itsacustomersissue, determine, if itsanalreadyknowncustomeroranewcustomer. Forthisanaccesstothecustomersdatabaseisneeded. Check, howthiscanbedonemoreorlessgeneric(e.g. accessanexportedcustomerscsvfile, whichisprovidedbySP)\n2. Defineevent ticketsforeachevent andtrytodetermine, if anewevent isgeneratedorif thisspecificemail belongstoanalreadyexistingevent/ticket. Emailsshouldbeassignedtoanevent/ticket. Providealist of all eventsandtheirduration.\n3. Recognisingandsummarisingtheprocessingstatusof anevent. TheAI-LLMcomponent shouldtracktheemail threadsandgiveabriefsummaryof what happeneduptonow, howlongthecurrent processtookalreadyetc.E.g.: Aclient sent acomplaint email, SPrepliesandasksomequestionsabout it, Client repliesagain, specifiestheproblemetc.\n4. Implement anautomationfeature. Email shouldbepartlyprocessed(replied)automaticallybasedontherecategory, i.e. thesystemwillgeneratedrafts, whichwill beapprovedmanually, i.e. userisabletoedit thisdrafts, reject thedraft, orsent thedraft asit is.\n5. Fullyautomation. Adminconfigures/definessomeprocedures, whichcanbehandledfullyautomatedbythesystem. Systemwillgeneratebrief summariesof what ishappened.",
+    "content_summary": "EmailclassificationsystemforServiceProviders(SP)toimproveandsimplifytheemailcommunicationwithcustomers,suppliers,authorities,etc.\nIntroduction\nTheyproject shouldhaveseveral development steps:\n1. Classifyemail (category)andprovidestatisticsabout howma...",
+    "content_length": 1552,
+    "created_at": "2025-04-24T13:07:42.375761",
+    "updated_at": "2025-04-24T13:08:15.709938",
+    "file_path": "rag-data/docs/pdftest.pdf_page 1"
+  },
+  "doc-84bbfdf41c561b9176177a6c7507483f": {
+    "status": "processed",
+    "chunks_count": 1,
+    "content": "MainfunctionalrequirementsStep1:\nID Description\n01 FetchEmailsfromIMAPmailboxes(usercouldhaveseveral email addresses)andpassthemtotheclassifiermodule(ID02).\nCheck:1. Howareemailsuniqueidentified, dotheyhaveIDs?If not, howcanweidentifythemtoreferencethem(e.g. toadatabasetablewhichholdsthestatistics)2. Howtohandleemail threads?3. Isit possibletoassigncategorylabelsortagstomailsof theIMAPmailbox, sothiscouldbevisualizedinorfromtheemail client whichisusedbytheuser(e.g. outlook, Thunderbird,etc.)If yes, doesthismakessense?Orisit bettertovisualizetheseinformationsbyaseparatedashboardandconsidertheIMAPinboxjust asread-only?\n02 ClassifyeachemailsusingAI-LLMtechnology:\n1. categoriesshouldbeconfigurable, i.e. readfromconfigfile. Categorytags/labelslookslike:CUSTOMER_REQUEST, CUSTOMER_COMPLAINT, CUSTOMER_COMPLAINT, …2. TheLLMsystemprompt doesthemaintask, shouldbereadfromconfigfile(seepythonprototype)3. ClassifypriorityNORMAL, HIGH4. Generateabrief summaryof thecontent, andextract someimportant keywords(orkeyinformations)fromtheemail likeordernumbers, invoicenumbers, customernumbers, etc.\nUseanopensourceLLM(e.g. gemini orllama3.1ornewer)andlocal LLM(ollama)orGroq-API.",
+    "content_summary": "MainfunctionalrequirementsStep1:\nID Description\n01 FetchEmailsfromIMAPmailboxes(usercouldhaveseveral email addresses)andpassthemtotheclassifiermodule(ID02).\nCheck:1. Howareemailsuniqueidentified, dotheyhaveIDs?If not, howcanweidentifythemtoreferencet...",
+    "content_length": 1174,
+    "created_at": "2025-04-24T13:07:42.375761",
+    "updated_at": "2025-04-24T13:09:17.907154",
+    "file_path": "rag-data/docs/pdftest.pdf_page 2"
+  },
+  "doc-fe4125964e23287f5999a3004c674245": {
+    "status": "processed",
+    "chunks_count": 1,
+    "content": "Prototype-Project   User  support  problems  should  be  processed  and  solved  semi-automatically.  2  Sites,  SP  and  client  with  the  following  features:    Client:   used  by  clients  1  Login  with  predefined  Testusers  \n2  Dashboard  to  create  and  edit  “tickets”.  Tickets  contain  informations  about  state  (new,  in  work,  completed)  and  state  like  “next  action/step”  which  shows  what  has  to  be  done  next  and  who  has  to  do  it.    \n3  Main  functionality  of  a  ticket  is  the  AI  chatbot.Users  discuss  their  problems  with  AI  chatbot.  AI  chatbot  classifies  the  problem,  suggest  possible  solutions,  triggers  some  actions  (e.g.  send  status  emails  etc.),  or  forward  the  problem  to  the  responsible  expert.   User  should  be  able  to  send  an  email  which  creates  a  ticket  or  create  it  using  dashboard.  This  means  email  communication  and  direct  chatbot  interaction  are  both  possible  and  are  equivalent.   AI  chatbot  get  some  context  information  about  the  user  to  understand  the  problem.   \n4  Tickets  must  be  explicitly  “shared”.  If  not  shared,  that  expert  support  staff  have  no  access  to  it.  \n  \nSP:  used  by  expert  support  staff  1  Login  with  predefined  Testusers  \n2  Dashboard  to  see  all  user  tickets.  Expert  user  can  comment  or  close  a  ticket.  On  some  conditions,  status  emails  are  sent  to  clients/users.",
+    "content_summary": "Prototype-Project   User  support  problems  should  be  processed  and  solved  semi-automatically.  2  Sites,  SP  and  client  with  the  following  features:    Client:   used  by  clients  1  Login  with  predefined  Testusers  \n2  Dashboard  to...",
+    "content_length": 1464,
+    "created_at": "2025-04-24T13:36:21.545436",
+    "updated_at": "2025-04-24T13:36:51.959432",
+    "file_path": "AI ticket system, Prototype spec.pdf (page 1)"
+  },
+  "doc-eccbc87e4b5ce2fe28308fd9f2a7baf3": {
+    "status": "processed",
+    "chunks_count": 1,
+    "content": "3",
+    "content_summary": "3",
+    "content_length": 1,
+    "created_at": "2025-04-24T13:36:21.545436",
+    "updated_at": "2025-04-24T13:36:30.408621",
+    "file_path": "AI ticket system, Prototype spec.pdf (page 2)"
   }
 }
