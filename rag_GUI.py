@@ -8,6 +8,7 @@ from lightrag.llm.openai import gpt_4o_mini_complete, openai_embed
 
 from sentence_transformers import SentenceTransformer
 from groq import Groq
+from openai import OpenAI
 import google.generativeai as genai
 
 from lightrag.utils import EmbeddingFunc
@@ -22,15 +23,20 @@ if not os.path.exists(WORKING_DIR):
     os.mkdir(WORKING_DIR)
 if not os.path.exists(WORKING_DIR):
     os.mkdir(WORKING_DIR)
-# Groq LLM function (you might need to adapt based on your Groq client setup)
+
+# Groq 
 groq_api_key = st.secrets.groq_api_key #os.getenv("GROQ_API_KEY")
 groq_client = Groq(api_key=groq_api_key)
+#deepseek
+deepseek_api_key = st.secrets.deepseek_api_key #os.getenv("GROQ_API_KEY")
+deepseek_client = OpenAI(api_key=deepseek_api_key,base_url="https://api.deepseek.com")
+#gemini
 gemini_api_key = st.secrets.google_api_key #os.getenv('GOOGLE_API_KEY') 
 genai.configure(api_key=gemini_api_key)
+model = genai.GenerativeModel("gemini-2.0-flash")
+#openai
 openai_api_key =  st.secrets.openai_api_key
 os.environ["OPENAI_API_KEY"] = openai_api_key
-model = genai.GenerativeModel("gemini-2.0-flash")
-
 
 ai_provider = st.secrets.ai_provider
 
@@ -103,6 +109,28 @@ async def llm_model_func(prompt,**kwargs) -> str:
     return response.choices[0].message.content
 
 
+async def llm_model_func_deepseek(prompt,**kwargs) -> str:
+    combined_prompt = ""
+    
+    if 'system_prompt' in kwargs:
+        combined_prompt += kwargs['system_prompt'] + f"\n"
+
+        
+    if 'history_messages' in kwargs:
+        for msg in kwargs['history_messages']:
+            combined_prompt += f"{msg['role']}: {msg['content']}\n"
+        
+    # Finally, add the new user prompt
+    combined_prompt += f"user: {prompt}"
+
+    response = deepseek_client.chat.completions.create(
+        model="deepseek-chat",
+        messages=[{"role": "user", "content": combined_prompt}],
+    )
+
+    return response.choices[0].message.content
+
+
 gen_llm = llm_model_func
 
 if ai_provider == 'openai':
@@ -110,6 +138,8 @@ if ai_provider == 'openai':
     embedding_model = openai_embed
 elif ai_provider == 'google':
     gen_llm = llm_model_func_google
+elif ai_provider == 'deepseek':
+    gen_llm = llm_model_func_deepseek
 
 
 async def initialize_rag():
